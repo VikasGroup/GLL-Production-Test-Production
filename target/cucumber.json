@@ -1,0 +1,121 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 197,
+        "name": "Test case 14",
+        "description": "",
+        "id": "gll-smoke-test;test-case-14;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10999371130,
+              "status": "passed"
+            },
+            "line": 188,
+            "name": "user direct to the site",
+            "match": {
+              "location": "Gllsteps.user_direct_to_the_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 19625,
+              "status": "passed"
+            },
+            "line": 189,
+            "name": "user click on Login or Register button",
+            "match": {
+              "location": "Gllsteps.user_click_on_Login_or_Register_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 167958680,
+              "status": "passed"
+            },
+            "line": 190,
+            "name": "user click on forgot pwd",
+            "match": {
+              "location": "Gllsteps.user_click_on_forgot_pwd()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 86337817,
+              "status": "passed"
+            },
+            "line": 191,
+            "name": "user enter customer IR ID \"GL617795\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GL617795",
+                  "offset": 27
+                }
+              ],
+              "location": "Gllsteps.user_enter_customer_IR_ID(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3176674121,
+              "status": "passed"
+            },
+            "line": 192,
+            "name": "click on submit button",
+            "match": {
+              "location": "Gllsteps.click_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6304946145,
+              "status": "passed"
+            },
+            "line": 193,
+            "name": "Click on countinue button",
+            "match": {
+              "location": "Gllsteps.click_on_countinue_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3135966510,
+              "status": "passed"
+            },
+            "line": 194,
+            "name": "Click on Ok button on popup",
+            "match": {
+              "location": "Gllsteps.click_on_Ok_button_on_popup()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 186,
+            "name": "@Reg55"
+          }
+        ]
+      }
+    ],
+    "name": "GLL smoke test",
+    "description": "",
+    "id": "gll-smoke-test",
+    "keyword": "Feature",
+    "uri": "GLL.feature"
+  }
+]

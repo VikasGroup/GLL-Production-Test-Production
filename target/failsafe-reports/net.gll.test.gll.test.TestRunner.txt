@@ -1,0 +1,56 @@
+-------------------------------------------------------------------------------
+Test set: net.gll.test.gll.test.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 138, Failures: 0, Errors: 4, Skipped: 6, Time elapsed: 1,328.046 sec <<< FAILURE! - in net.gll.test.gll.test.TestRunner
+And Enter ecard details "TESTLKR0000134" "PRDECT"(| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000134 | PRDECT | Welcome! RUFA | TESTLKR0000133 | PRDECT |)  Time elapsed: 0.013 sec  <<< ERROR!
+org.openqa.selenium.ElementNotVisibleException: Timed out after 5 seconds. Element not available
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:147)
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:102)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy22.sendKeys(Unknown Source)
+	at net.gll.pgobjects.gll.pgobjects.RegistrationPgObjects.enterGLVoucherNum2(RegistrationPgObjects.java:239)
+	at net.gll.test.gll.test.steps.Gllsteps.enter_ecard_details(Gllsteps.java:360)
+	at ?.And Enter ecard details "TESTLKR0000134" "PRDECT"(GLL.feature:112)
+
+| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000134 | PRDECT | Welcome! RUFA | TESTLKR0000133 | PRDECT |  Time elapsed: 0.013 sec  <<< ERROR!
+org.openqa.selenium.ElementNotVisibleException: Timed out after 5 seconds. Element not available
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:147)
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:102)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy22.sendKeys(Unknown Source)
+	at net.gll.pgobjects.gll.pgobjects.RegistrationPgObjects.enterGLVoucherNum2(RegistrationPgObjects.java:239)
+	at net.gll.test.gll.test.steps.Gllsteps.enter_ecard_details(Gllsteps.java:360)
+	at ?.And Enter ecard details "TESTLKR0000134" "PRDECT"(GLL.feature:112)
+
+And Enter ecard details "TESTLKR0000146" "PRDECT"(| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000135 | PRDECT |)  Time elapsed: 0.002 sec  <<< ERROR!
+org.openqa.selenium.ElementNotVisibleException: Timed out after 5 seconds. Element not available
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:147)
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:102)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy22.sendKeys(Unknown Source)
+	at net.gll.pgobjects.gll.pgobjects.RegistrationPgObjects.enterGLVoucherNum2(RegistrationPgObjects.java:239)
+	at net.gll.test.gll.test.steps.Gllsteps.enter_ecard_details(Gllsteps.java:360)
+	at ?.And Enter ecard details "TESTLKR0000146" "PRDECT"(GLL.feature:134)
+
+| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000135 | PRDECT |  Time elapsed: 0.003 sec  <<< ERROR!
+org.openqa.selenium.ElementNotVisibleException: Timed out after 5 seconds. Element not available
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:147)
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:102)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy22.sendKeys(Unknown Source)
+	at net.gll.pgobjects.gll.pgobjects.RegistrationPgObjects.enterGLVoucherNum2(RegistrationPgObjects.java:239)
+	at net.gll.test.gll.test.steps.Gllsteps.enter_ecard_details(Gllsteps.java:360)
+	at ?.And Enter ecard details "TESTLKR0000146" "PRDECT"(GLL.feature:134)
+

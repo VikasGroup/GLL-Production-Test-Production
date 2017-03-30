@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="2" failures="0" name="GLL smoke test" skipped="0" tests="11" time="1306.85" timestamp="2017-03-82 03:54:47"><testcase name="Test case 01, 02, 03, 04"/><testcase name="Test case 05"/><testcase name="Test case 06"/><testcase name="Test case 07"/><testcase name="Test case 14"/><testcase name="Test case 08"><error message="Timed out after 5 seconds. Element not available&#10;Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'&#10;System info: host: 'OsuraLiyanage', ip: '192.168.1.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'&#10;Driver info: driver.version: unknown&#10;Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'&#10;System info: host: 'OsuraLiyanage', ip: '192.168.1.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.ElementNotVisibleException">Timed out after 5 seconds. Element not available
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: unknown</error><system-err>Timed out after 5 seconds. Element not available
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: unknown&#13;
+net.gll.pgobjects.gll.pgobjects.RegistrationPgObjects.enterGLVoucherNum2(RegistrationPgObjects.java:239)&#13;
+net.gll.test.gll.test.steps.Gllsteps.enter_ecard_details(Gllsteps.java:360)&#13;
+✽.And Enter ecard details "TESTLKR0000134" "PRDECT"(GLL.feature:112)&#13;
+</system-err></testcase><testcase name="Test case 09"><error message="Timed out after 5 seconds. Element not available&#10;Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'&#10;System info: host: 'OsuraLiyanage', ip: '192.168.1.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'&#10;Driver info: driver.version: unknown&#10;Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'&#10;System info: host: 'OsuraLiyanage', ip: '192.168.1.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.ElementNotVisibleException">Timed out after 5 seconds. Element not available
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: unknown</error><system-err>Timed out after 5 seconds. Element not available
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: unknown&#13;
+net.gll.pgobjects.gll.pgobjects.RegistrationPgObjects.enterGLVoucherNum2(RegistrationPgObjects.java:239)&#13;
+net.gll.test.gll.test.steps.Gllsteps.enter_ecard_details(Gllsteps.java:360)&#13;
+✽.And Enter ecard details "TESTLKR0000146" "PRDECT"(GLL.feature:134)&#13;
+</system-err></testcase><testcase name="Test case 14"/><testcase name="Test case 13"/><testcase name="Test case 16"/></testsuite>

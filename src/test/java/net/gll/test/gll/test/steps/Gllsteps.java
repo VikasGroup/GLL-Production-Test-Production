@@ -404,6 +404,7 @@ public void click_on_submit_button() throws Throwable {
 
 @Then("^Click on countinue button$")
 public void click_on_countinue_button() throws Throwable {
+	Thread.sleep(3000);
 	forgotPasswordPgObjects.clickContinue();
 	 
     

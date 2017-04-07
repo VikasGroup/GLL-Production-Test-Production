@@ -224,7 +224,7 @@ Then Validate the Auto Login "<Autologin>"
 
 Examples:
     |IR_ID   |Reg_Type  |Title|FName|Lname|YEAR|Month|Date|Lang   |Mob_no     |PWD     |Re_PWD  |Address|City|PostCode|BankName           |BranchName|AccNo     |EcardNo       |PIN   |Autologin          |Email|DE_OPTION|EcardNoII|PINII|
-    |GL617795|Individual|Mr   |test |vikass|1988|06  |12  |English|94763557189|Test@135|Test@135|test   |test|0000    |MBSL - Savings Bank|Galle     |1596325874|TESTLKR0000148|PRDECT|Welcome! TEST VIKASS|osura@vikas.lk|Global Lifestyle Lanka Head Office|TESTLKR0000147|PRDECT|
+    |GL617795|Individual|Mr   |test |vikass|1988|06  |12  |English|94763557189|Test@135|Test@135|test   |test|0000    |MBSL - Savings Bank|Galle     |1596325874|TESTLKR0000145|PRDECT|Welcome! TEST VIKASS|osura@vikas.lk|Global Lifestyle Lanka Head Office|TESTLKR0000147|PRDECT|
  
  
 @Reg5

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="GLL smoke test" skipped="0" tests="1" time="58.96" timestamp="2017-04-108 11:14:37"><testcase name="Test case 16"><failure message="Validate VO2 Page expected:&lt;https://portal.[glifestyle.net/VO2GLL]/#/DashBoard&gt; but was:&lt;https://portal.[myqweb.biz/VO2GLLNS4S]/#/DashBoard&gt;" type="java.lang.AssertionError">Validate VO2 Page expected:&lt;https://portal.[glifestyle.net/VO2GLL]/#/DashBoard&gt; but was:&lt;https://portal.[myqweb.biz/VO2GLLNS4S]/#/DashBoard&gt;</failure><system-err>Validate VO2 Page expected:&lt;https://portal.[glifestyle.net/VO2GLL]/#/DashBoard&gt; but was:&lt;https://portal.[myqweb.biz/VO2GLLNS4S]/#/DashBoard&gt;&#13;
+junit.framework.Assert.assertEquals(Assert.java:100)&#13;
+net.gll.test.gll.test.steps.Gllsteps.user_direct_to_the_VO_page(Gllsteps.java:454)&#13;
+✽.And user direct to the VO page "https://portal.glifestyle.net/VO2GLL/#/DashBoard"(GLLPre-Production.feature:233)&#13;
+</system-err></testcase></testsuite>

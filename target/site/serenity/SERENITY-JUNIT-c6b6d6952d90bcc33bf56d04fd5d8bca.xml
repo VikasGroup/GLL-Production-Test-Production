@@ -1,13 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="GLL smoke test" skipped="0" tests="1" time="85.65" timestamp="2017-03-81 12:47:30"><testcase name="Test case 05"><error type="net.serenitybdd.core.exceptions.UnrecognisedException"/><system-err>null&#13;
-org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)&#13;
-org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)&#13;
-org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)&#13;
-org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)&#13;
-org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)&#13;
-org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)&#13;
-org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)&#13;
-org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)&#13;
-org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)&#13;
-org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)&#13;
-net.gll.test.gll.test.steps.Gllsteps.enter_ecard_details_and_validate(Gllsteps.java:183)&#13;
-</system-err></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="GLL smoke test" skipped="0" tests="2" time="460.06" timestamp="2017-04-97 09:42:12"><testcase name="Test case 05"/><testcase name="Test case 13"/></testsuite>

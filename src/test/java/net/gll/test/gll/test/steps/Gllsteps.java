@@ -46,7 +46,11 @@ public class Gllsteps {
 	    driver.get("https://www.glifestyle.net/en/login?returnUrl=http://www.glifestyle.net/en");
 	    driver.manage().window().maximize();
 	}
-
+	@Given("^user direct to the staging site$")
+	public void user_direct_to_the_staging_site() throws Throwable {
+		driver.get("https://store.myqweb.biz/en/login?returnUrl=http://store.myqweb.biz/en");
+	    driver.manage().window().maximize();
+	}
 	@When("^user click on Login or Register button$")
 	public void user_click_on_Login_or_Register_button() throws Throwable {  
 	   // homePgObjects.clickLogInReg();
@@ -166,9 +170,9 @@ public class Gllsteps {
 		registrationPgObjects.acceptTC();
 		jse.executeScript("window.scrollBy(0,200)", "");
 		//registrationPgObjects.clickCloseChat();
-		Thread.sleep(5000);
+		//Thread.sleep(5000);
 		registrationPgObjects.clickAcceptBtn();
-		Thread.sleep(5000);
+		Thread.sleep(40000);
 		
 		//jse.executeScript("window.scrollBy(0,300)", "");
 		
@@ -204,7 +208,7 @@ public class Gllsteps {
 		registrationPgObjects.clickValidateBtn();
 		JavascriptExecutor jse = (JavascriptExecutor)driver;
 		jse.executeScript("window.scrollBy(0,400)", "");
-		Thread.sleep(30000);
+		Thread.sleep(40000);
 		registrationPgObjects.clickConfirmBtn();
 	    
 	}
@@ -317,6 +321,10 @@ public void select_delivery_option_and_click_checkout(String dilivery) throws Th
 	jse.executeScript("window.scrollBy(0,600)", "");
 	Thread.sleep(2000);
     checkOutPgObjects.clickCheckOutSelectPayment();
+}
+@When("^select delivery option and click checkout preprod \"([^\"]*)\"$")
+public void select_delivery_option_and_click_checkout_preprod(String arg1) throws Throwable {
+	 checkOutPgObjects.clickCheckOutSelectPayment();
 }
 
 @When("^User distribute the BVs and click on countinue$")
@@ -441,6 +449,7 @@ public void click_on_virtual_office_link() throws Throwable {
 
 @Then("^user direct to the VO page \"([^\"]*)\"$")
 public void user_direct_to_the_VO_page(String url) throws Throwable {
+	Thread.sleep(10000);
 	TabCatcher.setBaseTab();
    Assert.assertEquals("Validate VO2 Page", url, driver.getCurrentUrl());
 }

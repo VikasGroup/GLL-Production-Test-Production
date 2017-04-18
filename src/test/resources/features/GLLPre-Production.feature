@@ -79,7 +79,6 @@ And click continue btn
 Then Accept terms
 Then Validate the Auto Login "<Autologin>"
 
-
 Examples:
     |IR_ID   |Title|FName|Lname  |YEAR|Month|Date|Lang   |Mob_no     |PWD     |Re_PWD  |Address|City|PostCode|Autologin            |Email|
     |GL102223|Mr   |test |vikasRC|1988|05  |12  |English|94775877588|Test@135|Test@135|test   |test|0000    |Welcome! TEST VIKASRC|osura2@vikas.lk|

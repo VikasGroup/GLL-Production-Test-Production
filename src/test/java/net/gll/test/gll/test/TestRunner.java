@@ -7,7 +7,7 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 
 @RunWith(CucumberWithSerenity.class)
 
-@CucumberOptions(format = { "pretty", "json:target/cucumber.json" },features="src/test/resources/features/",glue="net.gll.test.gll.test.steps",tags="@RegPre")
+@CucumberOptions(format = { "pretty", "json:target/cucumber.json" },features="src/test/resources/features/",glue="net.gll.test.gll.test.steps",tags="@RegProd")
 
 
 public class TestRunner {

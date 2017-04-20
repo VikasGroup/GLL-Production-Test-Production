@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="GLL smoke test" skipped="0" tests="1" time="197.64" timestamp="2017-04-108 10:55:39"><testcase name="Test case 08"><failure message="Validate the Auto Login expected:&lt;Welcome! [RUFA]&gt; but was:&lt;Welcome! [TRENTA ABRIL]&gt;" type="java.lang.AssertionError">Validate the Auto Login expected:&lt;Welcome! [RUFA]&gt; but was:&lt;Welcome! [TRENTA ABRIL]&gt;</failure><system-err>Validate the Auto Login expected:&lt;Welcome! [RUFA]&gt; but was:&lt;Welcome! [TRENTA ABRIL]&gt;&#13;
-junit.framework.Assert.assertEquals(Assert.java:100)&#13;
-net.gll.test.gll.test.steps.Gllsteps.validate_the_Auto_Login(Gllsteps.java:221)&#13;
-✽.Then Validate the Auto Login "Welcome! RUFA"(GLLPre-Production.feature:115)&#13;
-</system-err></testcase></testsuite>

@@ -1,8 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"GLL smoke test","Test case 01, 02, 03, 04","ERROR","2017-04-06T12:37:25.901+05:30","0.0","177.17"
-"GLL smoke test","Test case 06","SUCCESS","2017-04-06T12:41:16.554+05:30","0.0","179.72"
-"GLL smoke test","Test case 07","SUCCESS","2017-04-06T12:44:19.303+05:30","0.0","130.86"
-"GLL smoke test","Test case 08","ERROR","2017-04-06T12:47:07.484+05:30","0.0","36.38"
-"GLL smoke test","Test case 09","ERROR","2017-04-06T12:47:44.401+05:30","0.0","49.26"
-"GLL smoke test","Test case 14","SUCCESS","2017-04-06T12:48:34.210+05:30","0.0","27.74"
-"GLL smoke test","Test case 16","SUCCESS","2017-04-06T12:53:55.872+05:30","0.0","60.36"

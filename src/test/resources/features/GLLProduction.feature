@@ -144,7 +144,7 @@ Examples:
    |GL617795|testpw|	Global Lifestyle Lanka Head Office|TESTLKR0000146|PRDECT|Welcome! RUFA|TESTLKR0000135|PRDECT|
   
     
-@Reg  
+  
 Scenario Outline: Test case 10
 Given user direct to the site
 When user click on Login or Register button
@@ -163,7 +163,7 @@ Then Validate the Auto Login "<Autologin>"
  Examples:
     |IR_ID   |PWD|  DE_OPTION|C_Holder|C_Num|C_Month|C_Year|C_Sec_Cord|   
  
-@Reg   
+   
 Scenario Outline: Test case 11
 Given user direct to the site
 When user click on Login or Register button

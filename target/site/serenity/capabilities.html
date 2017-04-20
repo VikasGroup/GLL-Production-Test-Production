@@ -35,11 +35,11 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var plot1 = $.jqplot('coverage_pie_chart', [
             [
-                ['Passing', 0],
+                ['Passing', 1],
                 ['Pending', 0],
                 ['Ignored', 0],
                 ['Failing', 0],
-                ['Errors',  1],
+                ['Errors',  0],
                 ['Compromised',  0],
                 ['Untested',  0],
             ]
@@ -68,11 +68,11 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '0 requirements tested successfully'},
+                {label: '1 requirements tested successfully'},
                 {label: '0 requirements pending'},
                 {label: '0} requirements skipped'},
                 {label: '0} requirements with failures'},
-                {label: '1} requirements with errors'},
+                {label: '0} requirements with errors'},
                 {label: '0} requirements compromised'},
                 {label: '0} requirements untested'},
             ]
@@ -163,7 +163,7 @@
             <a href="d782c44557441225cc92a5e35bf4b23b.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 06-04-2017 12:37</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 19-04-2017 14:15</span>
     <br style="clear:left"/>
 </div>
 
@@ -192,20 +192,12 @@
                                     </tr>
                                 </head>
                                 <body>
-                                    <tr>
-                                        <td class="summary-leading-column"><a href="#requirements-tabs">Features</a></td>
-                                        <td>1</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                    </tr>
 
                                 <tr>
                                     <td class="summary-leading-column"><a href="#test-results-table">Acceptance Criteria (tests)</a></td>
-                                    <td>10</td>
-                                    <td>6</td>
-                                    <td>4</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td>0</td>
                                     <td>0</td>
                                     <td>0</td>
                                     <td></td>
@@ -234,9 +226,9 @@
         <body>
         <tr>
             <td class="summary-leading-column">Automated</td>
-            <td>10</td>
-            <td>6 (60%)</td>
-            <td>4 (40%)</td>
+            <td>1</td>
+            <td>1 (100%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
@@ -250,15 +242,15 @@
         </tr>
         <tr>
             <td class="summary-leading-column">Total</td>
-            <td>10</td>
-            <td>6 (60%)</td>
-            <td>4 (0%)</td>
+            <td>1</td>
+            <td>1 (100%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">18 minutes 1 seconds</td>
+                <td colspan="5">25 seconds</td>
         </tr>
         </body>
     </table>
@@ -268,158 +260,6 @@
                 <div class="clr"></div>
 
                 <div id="requirements-tabs">
-                        <ul>
-                                <li><a href="#tabs-1">
-                                Features (1)
-                                </a></li>
-                        </ul>
-                        <div id="tabs-1" class="capabilities-table">
-                            <div id="tabs-1" class="capabilities-table">
-
-
-<div id="req_list_tests" class="table">
-    <div class="test-results">
-        <table id="req-results-table">
-            <thead>
-            <tr>
-                <th width="30" class="test-results-heading">&nbsp;</th>
-                <th width="65" class="test-results-heading">ID</th>
-                <th width="525" class="test-results-heading">Feature</th>
-                <th class="test-results-heading" width="75px">Automated<br/>Tests</th>
-                    <th class="test-results-heading" width="75px">Manual<br/>Tests</th>
-
-                <th width="125px" class="test-results-heading">Test Results</th>
-
-            </tr>
-            <tbody>
-
-
-
-                <tr class="test-ERROR requirementRow">
-                    <td class="requirementRowCell">
-                        <span class="status_icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
-                        <span style="display:none">4</span>
-                    </td>
-                    <td class="cardNumber requirementRowCell"></td>
-
-                    <td class="ERROR-text requirementRowCell">
-                        <a href="javaScript:void(0)" class="read-more-link">
-                            <img src="images/plus.png" height="16"/></a>
-                        <span class="requirementName"><a
-                                href="024eaf1c4480e01474a2077bf51674fb.html">GLL smoke test</a></span>
-
-                        <div class="requirementNarrative read-more-text"></div>
-                    </td>
-
-
-                    <td class="greentext highlighted-value requirementRowCell">10</td>
-<!--
-                    <td class="greentext requirementRowCell">6</td>
-                    <td class="bluetext requirementRowCell">0</td>
-                    <td class="redtext requirementRowCell">0</td>
-                    <td class="lightorangetext requirementRowCell">4</td>
-                    <td class="violettext requirementRowCell">0</td>
--->
-                        <td class="greentext highlighted-value requirementRowCell">0</td>
-<!--
-                        <td class="greentext requirementRowCell">0</td>
-                        <td class="bluetext requirementRowCell">0</td>
-                        <td class="redtext requirementRowCell">0</td>
-                        <td class="lightorangetext requirementRowCell">0</td>
-                        -->
-
-                    <td width="125px" class="lightgreentext requirementRowCell">
-
-
-<table>
-    <tr>
-        <td width="40px">
-            <div class="small">60%</div>
-        </td>
-        <td width="125px">
-            <div class="percentagebar"
-                 title="  - Total tests: 10
-  - Passing tests: 6 (60%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 4 (40%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)"
-                 style="width: 125px;">
-                <div class="pendingbar"
-                     title="  - Total tests: 10
-  - Passing tests: 6 (60%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 4 (40%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)"
-                     style="width: 125px;">
-                    <div class="ignoredbar"
-                         style="width: 125px;"
-                         title="  - Total tests: 10
-  - Passing tests: 6 (60%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 4 (40%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)">
-                        <div class="compromisedbar"
-                             style="width: 125px;"
-                             title="  - Total tests: 10
-  - Passing tests: 6 (60%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 4 (40%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)">
-                            <div class="errorbar"
-                                 style="width: 125px;"
-                                 title="  - Total tests: 10
-  - Passing tests: 6 (60%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 4 (40%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)">
-                                <div class="failingbar"
-                                     style="width: 75px;"
-                                     title="  - Total tests: 10
-  - Passing tests: 6 (60%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 4 (40%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)">
-                                    <div class="passingbar"
-                                         style="width: 75px;"
-                                         title="  - Total tests: 10
-  - Passing tests: 6 (60%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 4 (40%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </td>
-    </tr>
-</table>
-                    </td>
-
-                </tr>
-            </tbody>
-        </table>
-    </div>
-</div>
-
-                            </div>
-                        </div>
 <table>
     <tr>
         <td>
@@ -438,26 +278,6 @@
                         </thead>
                         <tbody>
 
-                            <tr class="test-ERROR">
-                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
-                                    
-                                    <span style="display:none">ERROR</span></td>
-                                <td class="ERROR-text">
-                                    <div class="ellipsis">
-
-                                        <a href="ea46296c56a8ba614f7098593bbe9756.html" class="ellipsis" title="No such element exception: Timed out ...">
-                                            Test Case 01, 02, 03, 04&nbsp;(2  examples)
-                                                <span class="related-issue-title"></span>
-                                        </a>
-                                    </div>
-                                </td>
-
-                                <td class="lightgreentext">14</td>
-
-
-                                <td class="lightgreentext">177.17</td>
-                            </tr>
-
                             <tr class="test-SUCCESS">
                                 <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                                     
@@ -465,127 +285,7 @@
                                 <td class="SUCCESS-text">
                                     <div class="ellipsis">
 
-                                        <a href="c6b6d6952d90bcc33bf56d04fd5d8bca.html" class="ellipsis" title="">
-                                            Test Case 05&nbsp;(1  examples)
-                                                <span class="related-issue-title"></span>
-                                        </a>
-                                    </div>
-                                </td>
-
-                                <td class="lightgreentext">17</td>
-
-
-                                <td class="lightgreentext">186.43</td>
-                            </tr>
-
-                            <tr class="test-SUCCESS">
-                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                                    
-                                    <span style="display:none">SUCCESS</span></td>
-                                <td class="SUCCESS-text">
-                                    <div class="ellipsis">
-
-                                        <a href="c342353a9eee53a3cd2fc2f78624a174.html" class="ellipsis" title="">
-                                            Test Case 06&nbsp;(1  examples)
-                                                <span class="related-issue-title"></span>
-                                        </a>
-                                    </div>
-                                </td>
-
-                                <td class="lightgreentext">16</td>
-
-
-                                <td class="lightgreentext">179.72</td>
-                            </tr>
-
-                            <tr class="test-SUCCESS">
-                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                                    
-                                    <span style="display:none">SUCCESS</span></td>
-                                <td class="SUCCESS-text">
-                                    <div class="ellipsis">
-
-                                        <a href="3e61a878f990f3d2c83e26bb234552b0.html" class="ellipsis" title="">
-                                            Test Case 07&nbsp;(1  examples)
-                                                <span class="related-issue-title"></span>
-                                        </a>
-                                    </div>
-                                </td>
-
-                                <td class="lightgreentext">15</td>
-
-
-                                <td class="lightgreentext">130.86</td>
-                            </tr>
-
-                            <tr class="test-ERROR">
-                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
-                                    
-                                    <span style="display:none">ERROR</span></td>
-                                <td class="ERROR-text">
-                                    <div class="ellipsis">
-
-                                        <a href="d60f117e4ec84ef52d78c6fdae683d73.html" class="ellipsis" title="No such method error: net.gll.pgobjec...">
-                                            Test Case 08&nbsp;(1  examples)
-                                                <span class="related-issue-title"></span>
-                                        </a>
-                                    </div>
-                                </td>
-
-                                <td class="lightgreentext">16</td>
-
-
-                                <td class="lightgreentext">36.38</td>
-                            </tr>
-
-                            <tr class="test-ERROR">
-                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
-                                    
-                                    <span style="display:none">ERROR</span></td>
-                                <td class="ERROR-text">
-                                    <div class="ellipsis">
-
-                                        <a href="d49004cfc5159ba4301b97cbe62ff4b0.html" class="ellipsis" title="No such method error: net.gll.pgobjec...">
-                                            Test Case 09&nbsp;(1  examples)
-                                                <span class="related-issue-title"></span>
-                                        </a>
-                                    </div>
-                                </td>
-
-                                <td class="lightgreentext">16</td>
-
-
-                                <td class="lightgreentext">49.26</td>
-                            </tr>
-
-                            <tr class="test-ERROR">
-                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
-                                    
-                                    <span style="display:none">ERROR</span></td>
-                                <td class="ERROR-text">
-                                    <div class="ellipsis">
-
-                                        <a href="326fef310038952cb4ca2621b3550f06.html" class="ellipsis" title="No such element exception: Timed out ...">
-                                            Test Case 13&nbsp;(1  examples)
-                                                <span class="related-issue-title"></span>
-                                        </a>
-                                    </div>
-                                </td>
-
-                                <td class="lightgreentext">24</td>
-
-
-                                <td class="lightgreentext">233.88</td>
-                            </tr>
-
-                            <tr class="test-SUCCESS">
-                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                                    
-                                    <span style="display:none">SUCCESS</span></td>
-                                <td class="SUCCESS-text">
-                                    <div class="ellipsis">
-
-                                        <a href="42bb74e189bdaf165dfa36b0975ddbb3.html" class="ellipsis" title="">
+                                        <a href="146c5d0cffeccec81ed05ef2f00e9601.html" class="ellipsis" title="">
                                             Test Case 14&nbsp;(1  examples)
                                                 <span class="related-issue-title"></span>
                                         </a>
@@ -595,27 +295,7 @@
                                 <td class="lightgreentext">8</td>
 
 
-                                <td class="lightgreentext">27.74</td>
-                            </tr>
-
-                            <tr class="test-SUCCESS">
-                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                                    
-                                    <span style="display:none">SUCCESS</span></td>
-                                <td class="SUCCESS-text">
-                                    <div class="ellipsis">
-
-                                        <a href="f7e88cd61fdfebce1ff391c77242ea5b.html" class="ellipsis" title="">
-                                            Test Case 16&nbsp;(1  examples)
-                                                <span class="related-issue-title"></span>
-                                        </a>
-                                    </div>
-                                </td>
-
-                                <td class="lightgreentext">6</td>
-
-
-                                <td class="lightgreentext">60.36</td>
+                                <td class="lightgreentext">24.6</td>
                             </tr>
                         </tbody>
                     </table>

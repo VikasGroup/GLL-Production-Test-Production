@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: net.gll.test.gll.test.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 28.195 sec - in net.gll.test.gll.test.TestRunner
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 243.323 sec - in net.gll.test.gll.test.TestRunner

@@ -3,64 +3,133 @@
     "line": 1,
     "elements": [
       {
-        "line": 197,
-        "name": "Test case 14",
+        "line": 223,
+        "name": "Test case 13",
         "description": "",
-        "id": "gll-smoke-test;test-case-14;;2",
+        "id": "gll-smoke-test;test-case-13;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 9670439541,
+              "duration": 11467291690,
               "status": "passed"
             },
-            "line": 188,
-            "name": "user direct to the site",
+            "line": 198,
+            "name": "user direct to the staging site",
             "match": {
-              "location": "Gllsteps.user_direct_to_the_site()"
+              "location": "Gllsteps.user_direct_to_the_staging_site()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 20051,
+              "duration": 178745443,
               "status": "passed"
             },
-            "line": 189,
-            "name": "user click on Login or Register button",
+            "line": 199,
+            "name": "user click on products tab",
             "match": {
-              "location": "Gllsteps.user_click_on_Login_or_Register_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 957923015,
-              "status": "passed"
-            },
-            "line": 190,
-            "name": "user click on forgot pwd",
-            "match": {
-              "location": "Gllsteps.user_click_on_forgot_pwd()"
+              "location": "Gllsteps.user_click_on_products_tab()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 102838593,
+              "duration": 2658768125,
               "status": "passed"
             },
-            "line": 191,
-            "name": "user enter customer IR ID \"GL617795\"",
+            "line": 200,
+            "name": "user click on products link",
+            "match": {
+              "location": "Gllsteps.user_click_on_products_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9118969642,
+              "status": "passed"
+            },
+            "line": 201,
+            "name": "user add products to the cart",
+            "match": {
+              "location": "Gllsteps.user_add_products_to_the_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 131089236,
+              "status": "passed"
+            },
+            "line": 202,
+            "name": "user click on shopping cart",
+            "match": {
+              "location": "Gllsteps.user_click_on_shopping_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13409456748,
+              "status": "passed"
+            },
+            "line": 203,
+            "name": "user click on checkout button",
+            "match": {
+              "location": "Gllsteps.user_click_on_checkout_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4616535143,
+              "status": "passed"
+            },
+            "line": 204,
+            "name": "user click on become a Bus Asso",
+            "match": {
+              "location": "Gllsteps.user_click_on_become_a_Bus_Asso()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3143687110,
+              "status": "passed"
+            },
+            "line": 205,
+            "name": "user select registration type \"Individual\"",
             "match": {
               "arguments": [
                 {
-                  "val": "GL617795",
+                  "val": "Individual",
+                  "offset": 31
+                }
+              ],
+              "location": "Gllsteps.user_select_registration_type(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 108264415,
+              "status": "passed"
+            },
+            "line": 206,
+            "name": "user enter referrer ir id \"GL102223\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GL102223",
                   "offset": 27
                 }
               ],
-              "location": "Gllsteps.user_enter_customer_IR_ID(String)"
+              "location": "Gllsteps.user_enter_referrer_ir_id(String)"
             },
             "matchedColumns": [
               0
@@ -69,45 +138,294 @@
           },
           {
             "result": {
-              "duration": 3108565097,
+              "duration": 476383305,
               "status": "passed"
             },
-            "line": 192,
-            "name": "click on submit button",
+            "line": 207,
+            "name": "user enter name \"Mr\" \"test\" \"vikass\"",
             "match": {
-              "location": "Gllsteps.click_on_submit_button()"
+              "arguments": [
+                {
+                  "val": "Mr",
+                  "offset": 17
+                },
+                {
+                  "val": "test",
+                  "offset": 22
+                },
+                {
+                  "val": "vikass",
+                  "offset": 29
+                }
+              ],
+              "location": "Gllsteps.user_enter_name(String,String,String)"
             },
+            "matchedColumns": [
+              2,
+              3,
+              4
+            ],
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 3899393903,
+              "duration": 153530067,
               "status": "passed"
             },
-            "line": 193,
-            "name": "Click on countinue button",
+            "line": 208,
+            "name": "user select date of birth \"1988\" \"06\" \"12\"",
             "match": {
-              "location": "Gllsteps.click_on_countinue_button()"
+              "arguments": [
+                {
+                  "val": "1988",
+                  "offset": 27
+                },
+                {
+                  "val": "06",
+                  "offset": 34
+                },
+                {
+                  "val": "12",
+                  "offset": 39
+                }
+              ],
+              "location": "Gllsteps.user_select_date_of_birth(String,String,String)"
+            },
+            "matchedColumns": [
+              5,
+              6,
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 119780289,
+              "status": "passed"
+            },
+            "line": 209,
+            "name": "user select language \"English\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "English",
+                  "offset": 22
+                }
+              ],
+              "location": "Gllsteps.user_select_language(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95791976,
+              "status": "passed"
+            },
+            "line": 210,
+            "name": "user enter mobile phone no \"94763557189\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "94763557189",
+                  "offset": 28
+                }
+              ],
+              "location": "Gllsteps.user_enter_mobile_phone_no(String)"
+            },
+            "matchedColumns": [
+              9
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 206027541,
+              "status": "passed"
+            },
+            "line": 211,
+            "name": "user enter PWD \"Test@135\" \"Test@135\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test@135",
+                  "offset": 16
+                },
+                {
+                  "val": "Test@135",
+                  "offset": 27
+                }
+              ],
+              "location": "Gllsteps.user_enter_PWD(String,String)"
+            },
+            "matchedColumns": [
+              10,
+              11
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 233193590,
+              "status": "passed"
+            },
+            "line": 212,
+            "name": "user enter Address \"test\" \"test\" \"0000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test",
+                  "offset": 20
+                },
+                {
+                  "val": "test",
+                  "offset": 27
+                },
+                {
+                  "val": "0000",
+                  "offset": 34
+                }
+              ],
+              "location": "Gllsteps.user_enter_Address(String,String,String)"
+            },
+            "matchedColumns": [
+              12,
+              13,
+              14
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6884385581,
+              "status": "passed"
+            },
+            "line": 213,
+            "name": "user enter bank details \"MBSL - Savings Bank\" \"Galle\" \"1596325874\" \"osura@vikas.lk\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "MBSL - Savings Bank",
+                  "offset": 25
+                },
+                {
+                  "val": "Galle",
+                  "offset": 47
+                },
+                {
+                  "val": "1596325874",
+                  "offset": 55
+                },
+                {
+                  "val": "osura@vikas.lk",
+                  "offset": 68
+                }
+              ],
+              "location": "Gllsteps.user_enter_bank_details(String,String,String,String)"
+            },
+            "matchedColumns": [
+              16,
+              17,
+              21,
+              15
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50272626427,
+              "status": "passed"
+            },
+            "line": 214,
+            "name": "Accept terms and conditions",
+            "match": {
+              "location": "Gllsteps.accept_terms_and_conditions()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 3145655762,
+              "duration": 10177944184,
               "status": "passed"
             },
-            "line": 194,
-            "name": "Click on Ok button on popup",
+            "line": 215,
+            "name": "select delivery option and click checkout preprod \"Global Lifestyle Lanka Head Office\"",
             "match": {
-              "location": "Gllsteps.click_on_Ok_button_on_popup()"
+              "arguments": [
+                {
+                  "val": "Global Lifestyle Lanka Head Office",
+                  "offset": 51
+                }
+              ],
+              "location": "Gllsteps.select_delivery_option_and_click_checkout_preprod(String)"
+            },
+            "matchedColumns": [
+              22
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7085190425,
+              "error_message": "org.openqa.selenium.ElementNotVisibleException: Timed out after 5 seconds. Element not available\nBuild info: version: \u00272.53.1\u0027, revision: \u0027a36b8b1cd5757287168e54b817830adce9b0158d\u0027, time: \u00272016-06-30 19:26:09\u0027\nSystem info: host: \u0027OsuraLiyanage\u0027, ip: \u0027192.168.1.15\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u00271.8.0_111\u0027\nDriver info: driver.version: unknown\r\n\tat net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:147)\r\n\tat net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:102)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy22.click(Unknown Source)\r\n\tat net.gll.pgobjects.gll.pgobjects.CheckOutPgObjects.clickBC02(CheckOutPgObjects.java:81)\r\n\tat net.gll.test.gll.test.steps.Gllsteps.user_distribute_the_BVs_and_click_on_countinue(Gllsteps.java:333)\r\n\tat ✽.And User distribute the BVs and click on countinue(GLLPre-Production.feature:216)\r\n",
+              "status": "failed"
+            },
+            "line": 216,
+            "name": "User distribute the BVs and click on countinue",
+            "match": {
+              "location": "Gllsteps.user_distribute_the_BVs_and_click_on_countinue()"
             },
             "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 217,
+            "name": "Select chash payments",
+            "match": {
+              "location": "Gllsteps.select_chash_payments()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 218,
+            "name": "Click on confirm cash payment",
+            "match": {
+              "location": "Gllsteps.click_on_confirm_cash_payment()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 219,
+            "name": "Validate the Auto Login \"Welcome! TEST VIKASS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Welcome! TEST VIKASS",
+                  "offset": 25
+                }
+              ],
+              "location": "Gllsteps.validate_the_Auto_Login(String)"
+            },
+            "matchedColumns": [
+              20
+            ],
+            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "line": 186,
-            "name": "@RegProd"
+            "line": 196,
+            "name": "@Reg"
           }
         ]
       }
@@ -116,6 +434,6 @@
     "description": "",
     "id": "gll-smoke-test",
     "keyword": "Feature",
-    "uri": "GLLProduction.feature"
+    "uri": "GLLPre-Production.feature"
   }
 ]

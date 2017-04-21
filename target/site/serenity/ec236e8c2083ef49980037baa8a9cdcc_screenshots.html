@@ -1,0 +1,202 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-bdd-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">GLL Test Project</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <a
+                    href="024eaf1c4480e01474a2077bf51674fb.html">Gll Smoke Test</a>
+                > <a
+                    href="ec236e8c2083ef49980037baa8a9cdcc.html">Test case 09 </a>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="d782c44557441225cc92a5e35bf4b23b.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 21-04-2017 10:20</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Gll Smoke Test </span>
+                                    <span class="badge tag-badge">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="b340447f9f2d4a134fd9f749ba6cdf65.html">Reg
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-3x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Test Case 09
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given user direct to the staging site<br>When user click on Login or Register button<br>And user enter valid credentials "&lt;IR_ID&gt;" "&lt;PWD&gt;"<br>And remove Items from cart<br>And user click on products tab<br>And user click on products link<br>And user add products to the cart<br>And user click on shopping cart<br>And user click on checkout button<br>And select delivery option and click checkout preprod "&lt;DE_OPTION&gt;"<br>And User distribute the BVs and click on countinue<br>And Select chash payments<br>And Click on confirm cash payment<br>Then Validate the Auto Login "&lt;Autologin&gt;"</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="scaled_cc160e6ecf1b732e62498d69546e41a2.png" title="Test case 09 #1: {IR_ID=GL010456, PWD=T@stpw120, DE_OPTION=Global Lifestyle Lanka Head Office, EcardNo=TESTLKR0000021, PIN=QECTST, Autologin=Welcome! TEST}" width="960"/>
+                <img src="5d378788e3b68749a104c060e2a2ee79.png" title="Given user direct to the staging site" width="960"/>
+                <img src="5d378788e3b68749a104c060e2a2ee79.png" title="When user click on Login or Register button" width="960"/>
+                <img src="5d378788e3b68749a104c060e2a2ee79.png" title="And user enter valid credentials &quot;GL010456&quot; &quot;T@stpw120&quot;" width="960"/>
+                <img src="scaled_8cc26663e8b023357210126f1f2ff952.png" title="And user enter valid credentials &quot;GL010456&quot; &quot;T@stpw120&quot;" width="960"/>
+                <img src="8cc26663e8b023357210126f1f2ff952.png" title="And remove Items from cart" width="960"/>
+                <img src="scaled_4947c0745c5dd6dd78994bf863df506b.png" title="And remove Items from cart" width="960"/>
+                <img src="scaled_800eec0f81141189a4d2d2cb8bd74ac0.png" title="And user click on products tab" width="960"/>
+                <img src="scaled_21395bfb8b089d3bbf2f8f04e1bcdb6a.png" title="And user click on products tab" width="960"/>
+                <img src="21395bfb8b089d3bbf2f8f04e1bcdb6a.png" title="And user click on products link" width="960"/>
+                <img src="scaled_f416305ab04e772a37afb13a4c9931a6.png" title="And user click on products link" width="960"/>
+                <img src="f416305ab04e772a37afb13a4c9931a6.png" title="And user add products to the cart" width="960"/>
+                <img src="scaled_59e1f8f93ede9219396f7731a7988083.png" title="And user add products to the cart" width="960"/>
+                <img src="59e1f8f93ede9219396f7731a7988083.png" title="And user click on shopping cart" width="960"/>
+                <img src="scaled_d42636c1eb5c7b26853998395c084dd9.png" title="And user click on shopping cart" width="960"/>
+                <img src="scaled_104d3bc843110e5351732e8b9a7083c1.png" title="And user click on checkout button" width="960"/>
+                <img src="scaled_1f92a1978f6fb500933fa66bc38560e9.png" title="And user click on checkout button" width="960"/>
+                <img src="1f92a1978f6fb500933fa66bc38560e9.png" title="And select delivery option and click checkout preprod &quot;Global Lifestyle Lanka Head Office&quot;" width="960"/>
+                <img src="scaled_c17a9082a824ce88b6170cb8c52a478e.png" title="And select delivery option and click checkout preprod &quot;Global Lifestyle Lanka Head Office&quot;" width="960"/>
+                <img src="scaled_b35ccae088801a2fa9a80ced532c02d6.png" title="And User distribute the BVs and click on countinue" width="960"/>
+                <img src="scaled_37a7cc4eb1fbbc45602c8942c6163e8d.png" title="And User distribute the BVs and click on countinue" width="960"/>
+                <img src="scaled_0f02fb13027fea50a6c758c54db36b27.png" title="And Select chash payments" width="960"/>
+                <img src="scaled_b8ec219335bb514828c843bf212efb1e.png" title="And Select chash payments" width="960"/>
+                <img src="b8ec219335bb514828c843bf212efb1e.png" title="And Click on confirm cash payment" width="960"/>
+                <img src="scaled_71c0868a691587993a61685a897be1dc.png" title="And Click on confirm cash payment" width="960"/>
+                <img src="scaled_ad9a30eef6c0a48cd6f1227eb9feb11a.png" title="Then Validate the Auto Login &quot;Welcome! TEST&quot;" width="960"/>
+                <img src="cc160e6ecf1b732e62498d69546e41a2.png" title="Then Validate the Auto Login &quot;Welcome! TEST&quot;: <span class='success-color'>SUCCESS</span>" width="960"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.2.2-rc.1</span>
+</div>
+</body>
+</html>

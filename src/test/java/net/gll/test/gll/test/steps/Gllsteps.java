@@ -462,5 +462,20 @@ public void remove_Items_from_cart() throws Throwable {
 	}
 }
 
+@When("^Select chash payments$")
+public void select_chash_payments() throws Throwable {
+  checkOutPgObjects.clickCashPayment();
+  Thread.sleep(5000);
+}
 
+@When("^Click on confirm cash payment$")
+public void click_on_confirm_cash_payment() throws Throwable {
+	checkOutPgObjects.ConfirmCashPayment();
+}
+
+@Then("^Validate Payment$")
+public void validate_Payment() throws Throwable {
+	 Thread.sleep(5000);
+   Assert.assertEquals(checkoutConfirmationPgObjects.GetOrderDetails(), "ORDER DETAILS");
+}
 }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="net.gll.test.gll.test.TestRunner" time="3.844" tests="8" errors="0" skipped="0" failures="0">
+<testsuite name="net.gll.test.gll.test.TestRunner" time="6.843" tests="16" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\bin"/>
@@ -27,7 +27,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="C:\Users\Osura Liyanage\workspace\GLL\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6589403937913941260.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\Osura Liyanage\workspace\GLL\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8347946055436479804.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Broadcom\Broadcom 802.11;;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Softwares\eclipse-jee-neon-R-win32-x86_64\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -62,12 +62,20 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="Given user direct to the site" classname="| GL617795 |" time="0.001"/>
-  <testcase name="When user click on Login or Register button" classname="| GL617795 |" time="0.001"/>
-  <testcase name="And user click on forgot pwd" classname="| GL617795 |" time="0"/>
-  <testcase name="And user enter customer IR ID &quot;GL617795&quot;" classname="| GL617795 |" time="0"/>
-  <testcase name="And click on submit button" classname="| GL617795 |" time="0"/>
-  <testcase name="Then Click on countinue button" classname="| GL617795 |" time="0"/>
-  <testcase name="And Click on Ok button on popup" classname="| GL617795 |" time="0"/>
-  <testcase name="| GL617795 |" classname="| GL617795 |" time="3.842"/>
+  <testcase name="Given user direct to the site" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000135 | PRDECT |" time="0.001"/>
+  <testcase name="When user click on Login or Register button" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000135 | PRDECT |" time="0"/>
+  <testcase name="And user enter valid credentials &quot;GL617795&quot; &quot;testpw&quot;" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000135 | PRDECT |" time="0"/>
+  <testcase name="And remove Items from cart" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000135 | PRDECT |" time="0"/>
+  <testcase name="And user click on products tab" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000135 | PRDECT |" time="0"/>
+  <testcase name="And user click on products link" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000135 | PRDECT |" time="0"/>
+  <testcase name="And user add products to the cart" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000135 | PRDECT |" time="0"/>
+  <testcase name="And user click on shopping cart" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000135 | PRDECT |" time="0"/>
+  <testcase name="And user click on checkout button" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000135 | PRDECT |" time="0"/>
+  <testcase name="And select delivery option and click checkout &quot;Global Lifestyle Lanka Head Office&quot;" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000135 | PRDECT |" time="0"/>
+  <testcase name="And User distribute the BVs and click on countinue" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000135 | PRDECT |" time="0"/>
+  <testcase name="And Enter ecard details &quot;TESTLKR0000146&quot; &quot;PRDECT&quot;" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000135 | PRDECT |" time="0"/>
+  <testcase name="And Enter Ecard two &quot;TESTLKR0000135&quot; &quot;PRDECT&quot;" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000135 | PRDECT |" time="0"/>
+  <testcase name="And Click on confirm button2" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000135 | PRDECT |" time="0.001"/>
+  <testcase name="Then Validate the Auto Login &quot;Welcome! RUFA&quot;" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000135 | PRDECT |" time="0"/>
+  <testcase name="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000135 | PRDECT |" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000135 | PRDECT |" time="6.841"/>
 </testsuite>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="GLL smoke test" skipped="0" tests="2" time="201.99" timestamp="2017-04-111 10:27:32"><testcase name="Test case 05"/><testcase name="Test case 13"><error message="Could not instantiate new webdriver instance of type class org.openqa.selenium.firefox.FirefoxDriver (Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: &#10;cription&quot;:&quot;Bảo vệ bạn trên Internet với phần mở rộng từ Kaspersky Lab&quot;,&quot;creator&quot;:null,&quot;homepageURL&quot;:null},{&quot;locales&quot;:[&quot;zh-CN&quot;],&quot;name&quot;:&quot;卡巴斯基保护&quot;,&quot;description&quot;:&quot;使用 Kaspersky Lab 的扩展功能对您的互联网的保护。&quot;,&quot;creator&quot;:null,&quot;homepageURL&quot;:null},{&quot;locales&quot;:[&quot;zh-HK&quot;],&quot;name&quot;:&quot;卡巴斯基防護&quot;,&quot;description&quot;:&quot;使用 Kaspersky Lab 的延伸功能對您的網際網路的防護。&quot;,&quot;creator&quot;:null,&quot;homepageURL&quot;:null},{&quot;locales&quot;:[&quot;zh-TW&quot;],&quot;name&quot;:&quot;卡巴斯基防護&quot;,&quot;description&quot;:&quot;使用 Kaspersky Lab 的延伸功能對您的網際網路的防護。&quot;,&quot;creator&quot;:null,&quot;homepageURL&quot;:null},{&quot;locales&quot;:[&quot;zh_CN&quot;],&quot;name&quot;:&quot;卡巴斯基保护&quot;,&quot;description&quot;:&quot;使用 Kaspersky Lab 的扩展功能对您的互联网的保护。&quot;,&quot;creator&quot;:null,&quot;homepageURL&quot;:null},{&quot;locales&quot;:[&quot;zh_HK&quot;],&quot;name&quot;:&quot;卡巴斯基防護&quot;,&quot;description&quot;:&quot;使用 Kaspersky Lab 的延伸功能對您的網際網路的防護。&quot;,&quot;creator&quot;:null,&quot;homepageURL&quot;:null},{&quot;locales&quot;:[&quot;zh_TW&quot;],&quot;name&quot;:&quot;卡巴斯基防護&quot;,&quot;description&quot;:&quot;使用 Kaspersky Lab 的延伸功能對您的網際網路的防護。&quot;,&quot;creator&quot;:null,&quot;homepageURL&quot;:null}],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;{ec8030f7-c20a-464f-9b0e-13a3a9e97384}&quot;,&quot;minVersion&quot;:&quot;38.0a1&quot;,&quot;maxVersion&quot;:&quot;43.0&quot;}],&quot;targetPlatforms&quot;:[],&quot;multiprocessCompatible&quot;:false}&#13;&#10;1492750815447&#9;addons.xpi&#9;DEBUG&#9;Updating database with changes to installed add-ons&#13;&#10;1492750815447&#9;addons.xpi-utils&#9;DEBUG&#9;Updating add-on states&#13;&#10;1492750815448&#9;addons.xpi-utils&#9;DEBUG&#9;Writing add-ons list&#13;&#10;1492750815449&#9;addons.manager&#9;DEBUG&#9;Registering shutdown blocker for XPIProvider&#13;&#10;1492750815450&#9;addons.manager&#9;DEBUG&#9;Provider finished startup: XPIProvider&#13;&#10;1492750815450&#9;addons.manager&#9;DEBUG&#9;Starting provider: LightweightThemeManager&#13;&#10;1492750815450&#9;addons.manager&#9;DEBUG&#9;Registering shutdown blocker for LightweightThemeManager&#13;&#10;1492750815450&#9;addons.manager&#9;DEBUG&#9;Provider finished startup: LightweightThemeManager&#13;&#10;1492750815450&#9;addons.manager&#9;DEBUG&#9;Starting provider: GMPProvider&#13;&#10;1492750815454&#9;addons.manager&#9;DEBUG&#9;Registering shutdown blocker for GMPProvider&#13;&#10;1492750815454&#9;addons.manager&#9;DEBUG&#9;Provider finished startup: GMPProvider&#13;&#10;1492750815454&#9;addons.manager&#9;DEBUG&#9;Starting provider: PluginProvider&#13;&#10;1492750815454&#9;addons.manager&#9;DEBUG&#9;Registering shutdown blocker for PluginProvider&#13;&#10;1492750815455&#9;addons.manager&#9;DEBUG&#9;Provider finished startup: PluginProvider&#13;&#10;1492750815455&#9;addons.manager&#9;DEBUG&#9;Completed startup sequence&#13;&#10;1492750815744&#9;DeferredSave.extensions.json&#9;DEBUG&#9;Starting timer&#13;&#10;1492750815776&#9;DeferredSave.extensions.json&#9;DEBUG&#9;Starting write&#13;&#10;1492750815871&#9;DeferredSave.extensions.json&#9;DEBUG&#9;Write succeeded&#13;&#10;1492750815871&#9;addons.xpi-utils&#9;DEBUG&#9;XPI Database saved, setting schema version preference to 16&#13;&#10;1492750819578&#9;addons.manager&#9;DEBUG&#9;Starting provider: &lt;unnamed-provider&gt;&#13;&#10;1492750819578&#9;addons.manager&#9;DEBUG&#9;Registering shutdown blocker for &lt;unnamed-provider&gt;&#13;&#10;1492750819579&#9;addons.manager&#9;DEBUG&#9;Provider finished startup: &lt;unnamed-provider&gt;&#13;&#10;JavaScript error: resource://gre/components/nsUrlClassifierListManager.js, line 75: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]&#13;&#10;JavaScript error: resource://gre/components/nsUrlClassifierListManager.js, line 75: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]&#13;&#10;1492750827537&#9;addons.manager&#9;DEBUG&#9;shutdown&#13;&#10;1492750827538&#9;addons.manager&#9;DEBUG&#9;Calling shutdown blocker for XPIProvider&#13;&#10;1492750827538&#9;addons.xpi&#9;DEBUG&#9;shutdown&#13;&#10;1492750827538&#9;addons.xpi-utils&#9;DEBUG&#9;shutdown&#13;&#10;1492750827538&#9;addons.manager&#9;DEBUG&#9;Calling shutdown blocker for LightweightThemeManager&#13;&#10;1492750827538&#9;addons.manager&#9;DEBUG&#9;Calling shutdown blocker for GMPProvider&#13;&#10;1492750827539&#9;addons.manager&#9;DEBUG&#9;Calling shutdown blocker for PluginProvider&#13;&#10;1492750827539&#9;addons.manager&#9;DEBUG&#9;Calling shutdown blocker for &lt;unnamed-provider&gt;&#13;&#10;1492750827540&#9;addons.xpi&#9;DEBUG&#9;Notifying XPI shutdown observers&#13;&#10;1492750827544&#9;addons.manager&#9;DEBUG&#9;Async provider shutdown done&#13;&#10;&#10;Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'&#10;System info: host: 'OsuraLiyanage', ip: '192.168.1.15', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'&#10;Driver info: driver.version: FirefoxDriver" type="net.thucydides.core.webdriver.UnsupportedDriverException">Could not instantiate new webdriver instance of type class org.openqa.selenium.firefox.FirefoxDriver (Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+cription":"Bảo vệ bạn trên Internet với phần mở rộng từ Kaspersky Lab","creator":null,"homepageURL":null},{"locales":["zh-CN"],"name":"卡巴斯基保护","description":"使用 Kaspersky Lab 的扩展功能对您的互联网的保护。","creator":null,"homepageURL":null},{"locales":["zh-HK"],"name":"卡巴斯基防護","description":"使用 Kaspersky Lab 的延伸功能對您的網際網路的防護。","creator":null,"homepageURL":null},{"locales":["zh-TW"],"name":"卡巴斯基防護","description":"使用 Kaspersky Lab 的延伸功能對您的網際網路的防護。","creator":null,"homepageURL":null},{"locales":["zh_CN"],"name":"卡巴斯基保护","description":"使用 Kaspersky Lab 的扩展功能对您的互联网的保护。","creator":null,"homepageURL":null},{"locales":["zh_HK"],"name":"卡巴斯基防護","description":"使用 Kaspersky Lab 的延伸功能對您的網際網路的防護。","creator":null,"homepageURL":null},{"locales":["zh_TW"],"name":"卡巴斯基防護","description":"使用 Kaspersky Lab 的延伸功能對您的網際網路的防護。","creator":null,"homepageURL":null}],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"38.0a1","maxVersion":"43.0"}],"targetPlatforms":[],"multiprocessCompatible":false}&#13;
+1492750815447	addons.xpi	DEBUG	Updating database with changes to installed add-ons&#13;
+1492750815447	addons.xpi-utils	DEBUG	Updating add-on states&#13;
+1492750815448	addons.xpi-utils	DEBUG	Writing add-ons list&#13;
+1492750815449	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider&#13;
+1492750815450	addons.manager	DEBUG	Provider finished startup: XPIProvider&#13;
+1492750815450	addons.manager	DEBUG	Starting provider: LightweightThemeManager&#13;
+1492750815450	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager&#13;
+1492750815450	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager&#13;
+1492750815450	addons.manager	DEBUG	Starting provider: GMPProvider&#13;
+1492750815454	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider&#13;
+1492750815454	addons.manager	DEBUG	Provider finished startup: GMPProvider&#13;
+1492750815454	addons.manager	DEBUG	Starting provider: PluginProvider&#13;
+1492750815454	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider&#13;
+1492750815455	addons.manager	DEBUG	Provider finished startup: PluginProvider&#13;
+1492750815455	addons.manager	DEBUG	Completed startup sequence&#13;
+1492750815744	DeferredSave.extensions.json	DEBUG	Starting timer&#13;
+1492750815776	DeferredSave.extensions.json	DEBUG	Starting write&#13;
+1492750815871	DeferredSave.extensions.json	DEBUG	Write succeeded&#13;
+1492750815871	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 16&#13;
+1492750819578	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;&#13;
+1492750819578	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;&#13;
+1492750819579	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;&#13;
+JavaScript error: resource://gre/components/nsUrlClassifierListManager.js, line 75: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]&#13;
+JavaScript error: resource://gre/components/nsUrlClassifierListManager.js, line 75: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]&#13;
+1492750827537	addons.manager	DEBUG	shutdown&#13;
+1492750827538	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider&#13;
+1492750827538	addons.xpi	DEBUG	shutdown&#13;
+1492750827538	addons.xpi-utils	DEBUG	shutdown&#13;
+1492750827538	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager&#13;
+1492750827538	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider&#13;
+1492750827539	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider&#13;
+1492750827539	addons.manager	DEBUG	Calling shutdown blocker for &lt;unnamed-provider&gt;&#13;
+1492750827540	addons.xpi	DEBUG	Notifying XPI shutdown observers&#13;
+1492750827544	addons.manager	DEBUG	Async provider shutdown done&#13;
+
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.15', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: FirefoxDriver</error><system-err>Could not instantiate new webdriver instance of type class org.openqa.selenium.firefox.FirefoxDriver (Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+cription":"Bảo vệ bạn trên Internet với phần mở rộng từ Kaspersky Lab","creator":null,"homepageURL":null},{"locales":["zh-CN"],"name":"卡巴斯基保护","description":"使用 Kaspersky Lab 的扩展功能对您的互联网的保护。","creator":null,"homepageURL":null},{"locales":["zh-HK"],"name":"卡巴斯基防護","description":"使用 Kaspersky Lab 的延伸功能對您的網際網路的防護。","creator":null,"homepageURL":null},{"locales":["zh-TW"],"name":"卡巴斯基防護","description":"使用 Kaspersky Lab 的延伸功能對您的網際網路的防護。","creator":null,"homepageURL":null},{"locales":["zh_CN"],"name":"卡巴斯基保护","description":"使用 Kaspersky Lab 的扩展功能对您的互联网的保护。","creator":null,"homepageURL":null},{"locales":["zh_HK"],"name":"卡巴斯基防護","description":"使用 Kaspersky Lab 的延伸功能對您的網際網路的防護。","creator":null,"homepageURL":null},{"locales":["zh_TW"],"name":"卡巴斯基防護","description":"使用 Kaspersky Lab 的延伸功能對您的網際網路的防護。","creator":null,"homepageURL":null}],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"38.0a1","maxVersion":"43.0"}],"targetPlatforms":[],"multiprocessCompatible":false}&#13;
+1492750815447	addons.xpi	DEBUG	Updating database with changes to installed add-ons&#13;
+1492750815447	addons.xpi-utils	DEBUG	Updating add-on states&#13;
+1492750815448	addons.xpi-utils	DEBUG	Writing add-ons list&#13;
+1492750815449	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider&#13;
+1492750815450	addons.manager	DEBUG	Provider finished startup: XPIProvider&#13;
+1492750815450	addons.manager	DEBUG	Starting provider: LightweightThemeManager&#13;
+1492750815450	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager&#13;
+1492750815450	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager&#13;
+1492750815450	addons.manager	DEBUG	Starting provider: GMPProvider&#13;
+1492750815454	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider&#13;
+1492750815454	addons.manager	DEBUG	Provider finished startup: GMPProvider&#13;
+1492750815454	addons.manager	DEBUG	Starting provider: PluginProvider&#13;
+1492750815454	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider&#13;
+1492750815455	addons.manager	DEBUG	Provider finished startup: PluginProvider&#13;
+1492750815455	addons.manager	DEBUG	Completed startup sequence&#13;
+1492750815744	DeferredSave.extensions.json	DEBUG	Starting timer&#13;
+1492750815776	DeferredSave.extensions.json	DEBUG	Starting write&#13;
+1492750815871	DeferredSave.extensions.json	DEBUG	Write succeeded&#13;
+1492750815871	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 16&#13;
+1492750819578	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;&#13;
+1492750819578	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;&#13;
+1492750819579	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;&#13;
+JavaScript error: resource://gre/components/nsUrlClassifierListManager.js, line 75: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]&#13;
+JavaScript error: resource://gre/components/nsUrlClassifierListManager.js, line 75: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]&#13;
+1492750827537	addons.manager	DEBUG	shutdown&#13;
+1492750827538	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider&#13;
+1492750827538	addons.xpi	DEBUG	shutdown&#13;
+1492750827538	addons.xpi-utils	DEBUG	shutdown&#13;
+1492750827538	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager&#13;
+1492750827538	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider&#13;
+1492750827539	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider&#13;
+1492750827539	addons.manager	DEBUG	Calling shutdown blocker for &lt;unnamed-provider&gt;&#13;
+1492750827540	addons.xpi	DEBUG	Notifying XPI shutdown observers&#13;
+1492750827544	addons.manager	DEBUG	Async provider shutdown done&#13;
+
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.15', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: FirefoxDriver&#13;
+net.gll.test.gll.test.steps.Gllsteps.user_direct_to_the_staging_site(Gllsteps.java:51)&#13;
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+</system-err></testcase></testsuite>

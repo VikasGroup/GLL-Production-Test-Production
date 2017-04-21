@@ -31,8 +31,8 @@ And user enter PWD "<PWD>" "<Re_PWD>"
 And user enter Address "<Address>" "<City>" "<PostCode>"
 And user enter bank details "<BankName>" "<BranchName>" "<AccNo>" "<Email>"
 Then Accept terms and conditions
-And Enter ecard details and validate "<EcardNo>" "<PIN>"
-And Click on confirm button
+And Select chash payments
+And Click on confirm cash payment
 Then Validate the Auto Login "<Autologin>"
 
 Examples:
@@ -53,8 +53,8 @@ And user enter PWD "<PWD>" "<Re_PWD>"
 And user enter Address "<Address>" "<City>" "<PostCode>"
 And user enter bank details "<BankName>" "<BranchName>" "<AccNo>" "<Email>"
 Then Accept terms and conditions
-And Enter ecard details and validate two "<EcardNo>" "<PIN>"
-And Click on confirm button
+And Select chash payments
+And Click on confirm cash payment
 Then Validate the Auto Login "<Autologin>"
 
 Examples:
@@ -109,9 +109,9 @@ And user click on shopping cart
 And user click on checkout button 
 And select delivery option and click checkout preprod "<DE_OPTION>"
 And User distribute the BVs and click on countinue
-And Enter ecard details "<EcardNo>" "<PIN>"
-And Click on confirm button2
-Then Validate the Auto Login "<Autologin>"
+And Select chash payments
+And Click on confirm cash payment
+Then Validate Payment
  
 Examples:
     |IR_ID   |PWD| DE_OPTION|EcardNo|PIN|Autologin|
@@ -131,8 +131,8 @@ And user click on shopping cart
 And user click on checkout button 
 And select delivery option and click checkout preprod "<DE_OPTION>"
 And User distribute the BVs and click on countinue
-And Enter ecard details "<EcardNo>" "<PIN>"
-And Click on confirm button2
+And Select chash payments
+And Click on confirm cash payment
 Then Validate the Auto Login "<Autologin>"
 
   
@@ -193,7 +193,7 @@ Examples:
     |CUS_ID   | 
 	|GL102223|
 	
-
+@Reg
 Scenario Outline: Test case 13
 Given user direct to the staging site
 And user click on products tab
@@ -212,10 +212,10 @@ And user enter PWD "<PWD>" "<Re_PWD>"
 And user enter Address "<Address>" "<City>" "<PostCode>"
 And user enter bank details "<BankName>" "<BranchName>" "<AccNo>" "<Email>"
 Then Accept terms and conditions
-And select delivery option kit "<DE_OPTION>"
+And select delivery option and click checkout preprod "<DE_OPTION>"
 And User distribute the BVs and click on countinue
-And Enter ecard details "<EcardNo>" "<PIN>"
-And Click on confirm button2
+And Select chash payments
+And Click on confirm cash payment
 Then Validate the Auto Login "<Autologin>"	
 
 Examples:

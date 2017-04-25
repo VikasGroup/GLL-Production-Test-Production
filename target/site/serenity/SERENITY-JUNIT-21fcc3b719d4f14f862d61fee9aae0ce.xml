@@ -1,17 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="GLL smoke test" skipped="0" tests="1" time="132.55" timestamp="2017-04-111 10:47:31"><testcase name="Test case 13"><error message="Timed out after 5 seconds. Element not available&#10;Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'&#10;System info: host: 'OsuraLiyanage', ip: '192.168.1.15', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'&#10;Driver info: driver.version: unknown&#10;Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'&#10;System info: host: 'OsuraLiyanage', ip: '192.168.1.15', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.ElementNotVisibleException">Timed out after 5 seconds. Element not available
-Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'OsuraLiyanage', ip: '192.168.1.15', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
-Driver info: driver.version: unknown
-Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'OsuraLiyanage', ip: '192.168.1.15', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
-Driver info: driver.version: unknown</error><system-err>Timed out after 5 seconds. Element not available
-Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'OsuraLiyanage', ip: '192.168.1.15', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
-Driver info: driver.version: unknown
-Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'OsuraLiyanage', ip: '192.168.1.15', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
-Driver info: driver.version: unknown&#13;
-net.gll.pgobjects.gll.pgobjects.CheckOutPgObjects.clickBC02(CheckOutPgObjects.java:81)&#13;
-net.gll.test.gll.test.steps.Gllsteps.user_distribute_the_BVs_and_click_on_countinue(Gllsteps.java:333)&#13;
-✽.And User distribute the BVs and click on countinue(GLLPre-Production.feature:216)&#13;
-</system-err></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="GLL smoke test" skipped="0" tests="1" time="169.47" timestamp="2017-04-115 11:16:57"><testcase name="Test case 13"/></testsuite>

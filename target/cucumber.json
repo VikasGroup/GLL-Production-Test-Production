@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "line": 223,
+        "line": 220,
         "name": "Test case 13",
         "description": "",
         "id": "gll-smoke-test;test-case-13;;2",
@@ -12,10 +12,10 @@
         "steps": [
           {
             "result": {
-              "duration": 11467291690,
+              "duration": 11440955914,
               "status": "passed"
             },
-            "line": 198,
+            "line": 195,
             "name": "user direct to the staging site",
             "match": {
               "location": "Gllsteps.user_direct_to_the_staging_site()"
@@ -24,10 +24,10 @@
           },
           {
             "result": {
-              "duration": 178745443,
+              "duration": 224597525,
               "status": "passed"
             },
-            "line": 199,
+            "line": 196,
             "name": "user click on products tab",
             "match": {
               "location": "Gllsteps.user_click_on_products_tab()"
@@ -36,10 +36,10 @@
           },
           {
             "result": {
-              "duration": 2658768125,
+              "duration": 3384975266,
               "status": "passed"
             },
-            "line": 200,
+            "line": 197,
             "name": "user click on products link",
             "match": {
               "location": "Gllsteps.user_click_on_products_link()"
@@ -48,10 +48,10 @@
           },
           {
             "result": {
-              "duration": 9118969642,
+              "duration": 9186788883,
               "status": "passed"
             },
-            "line": 201,
+            "line": 198,
             "name": "user add products to the cart",
             "match": {
               "location": "Gllsteps.user_add_products_to_the_cart()"
@@ -60,10 +60,10 @@
           },
           {
             "result": {
-              "duration": 131089236,
+              "duration": 125050823,
               "status": "passed"
             },
-            "line": 202,
+            "line": 199,
             "name": "user click on shopping cart",
             "match": {
               "location": "Gllsteps.user_click_on_shopping_cart()"
@@ -72,10 +72,10 @@
           },
           {
             "result": {
-              "duration": 13409456748,
+              "duration": 13592388014,
               "status": "passed"
             },
-            "line": 203,
+            "line": 200,
             "name": "user click on checkout button",
             "match": {
               "location": "Gllsteps.user_click_on_checkout_button()"
@@ -84,10 +84,10 @@
           },
           {
             "result": {
-              "duration": 4616535143,
+              "duration": 4458388991,
               "status": "passed"
             },
-            "line": 204,
+            "line": 201,
             "name": "user click on become a Bus Asso",
             "match": {
               "location": "Gllsteps.user_click_on_become_a_Bus_Asso()"
@@ -96,10 +96,10 @@
           },
           {
             "result": {
-              "duration": 3143687110,
+              "duration": 3195230670,
               "status": "passed"
             },
-            "line": 205,
+            "line": 202,
             "name": "user select registration type \"Individual\"",
             "match": {
               "arguments": [
@@ -117,10 +117,10 @@
           },
           {
             "result": {
-              "duration": 108264415,
+              "duration": 104135993,
               "status": "passed"
             },
-            "line": 206,
+            "line": 203,
             "name": "user enter referrer ir id \"GL102223\"",
             "match": {
               "arguments": [
@@ -138,10 +138,10 @@
           },
           {
             "result": {
-              "duration": 476383305,
+              "duration": 492786703,
               "status": "passed"
             },
-            "line": 207,
+            "line": 204,
             "name": "user enter name \"Mr\" \"test\" \"vikass\"",
             "match": {
               "arguments": [
@@ -169,10 +169,10 @@
           },
           {
             "result": {
-              "duration": 153530067,
+              "duration": 171320877,
               "status": "passed"
             },
-            "line": 208,
+            "line": 205,
             "name": "user select date of birth \"1988\" \"06\" \"12\"",
             "match": {
               "arguments": [
@@ -200,10 +200,10 @@
           },
           {
             "result": {
-              "duration": 119780289,
+              "duration": 169485076,
               "status": "passed"
             },
-            "line": 209,
+            "line": 206,
             "name": "user select language \"English\"",
             "match": {
               "arguments": [
@@ -221,10 +221,10 @@
           },
           {
             "result": {
-              "duration": 95791976,
+              "duration": 111340971,
               "status": "passed"
             },
-            "line": 210,
+            "line": 207,
             "name": "user enter mobile phone no \"94763557189\"",
             "match": {
               "arguments": [
@@ -242,10 +242,10 @@
           },
           {
             "result": {
-              "duration": 206027541,
+              "duration": 226836496,
               "status": "passed"
             },
-            "line": 211,
+            "line": 208,
             "name": "user enter PWD \"Test@135\" \"Test@135\"",
             "match": {
               "arguments": [
@@ -268,10 +268,10 @@
           },
           {
             "result": {
-              "duration": 233193590,
+              "duration": 243077987,
               "status": "passed"
             },
-            "line": 212,
+            "line": 209,
             "name": "user enter Address \"test\" \"test\" \"0000\"",
             "match": {
               "arguments": [
@@ -299,10 +299,10 @@
           },
           {
             "result": {
-              "duration": 6884385581,
+              "duration": 7005818847,
               "status": "passed"
             },
-            "line": 213,
+            "line": 210,
             "name": "user enter bank details \"MBSL - Savings Bank\" \"Galle\" \"1596325874\" \"osura@vikas.lk\"",
             "match": {
               "arguments": [
@@ -335,10 +335,10 @@
           },
           {
             "result": {
-              "duration": 50272626427,
+              "duration": 50309482984,
               "status": "passed"
             },
-            "line": 214,
+            "line": 211,
             "name": "Accept terms and conditions",
             "match": {
               "location": "Gllsteps.accept_terms_and_conditions()"
@@ -347,19 +347,19 @@
           },
           {
             "result": {
-              "duration": 10177944184,
+              "duration": 5482320969,
               "status": "passed"
             },
-            "line": 215,
-            "name": "select delivery option and click checkout preprod \"Global Lifestyle Lanka Head Office\"",
+            "line": 212,
+            "name": "select delivery option and click checkout \"Global Lifestyle Lanka Head Office\"",
             "match": {
               "arguments": [
                 {
                   "val": "Global Lifestyle Lanka Head Office",
-                  "offset": 51
+                  "offset": 43
                 }
               ],
-              "location": "Gllsteps.select_delivery_option_and_click_checkout_preprod(String)"
+              "location": "Gllsteps.select_delivery_option_and_click_checkout(String)"
             },
             "matchedColumns": [
               22
@@ -368,11 +368,10 @@
           },
           {
             "result": {
-              "duration": 7085190425,
-              "error_message": "org.openqa.selenium.ElementNotVisibleException: Timed out after 5 seconds. Element not available\nBuild info: version: \u00272.53.1\u0027, revision: \u0027a36b8b1cd5757287168e54b817830adce9b0158d\u0027, time: \u00272016-06-30 19:26:09\u0027\nSystem info: host: \u0027OsuraLiyanage\u0027, ip: \u0027192.168.1.15\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u00271.8.0_111\u0027\nDriver info: driver.version: unknown\r\n\tat net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:147)\r\n\tat net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:102)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy22.click(Unknown Source)\r\n\tat net.gll.pgobjects.gll.pgobjects.CheckOutPgObjects.clickBC02(CheckOutPgObjects.java:81)\r\n\tat net.gll.test.gll.test.steps.Gllsteps.user_distribute_the_BVs_and_click_on_countinue(Gllsteps.java:333)\r\n\tat ✽.And User distribute the BVs and click on countinue(GLLPre-Production.feature:216)\r\n",
-              "status": "failed"
+              "duration": 28245531126,
+              "status": "passed"
             },
-            "line": 216,
+            "line": 213,
             "name": "User distribute the BVs and click on countinue",
             "match": {
               "location": "Gllsteps.user_distribute_the_BVs_and_click_on_countinue()"
@@ -381,9 +380,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5265175869,
+              "status": "passed"
             },
-            "line": 217,
+            "line": 214,
             "name": "Select chash payments",
             "match": {
               "location": "Gllsteps.select_chash_payments()"
@@ -392,9 +392,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 96889632,
+              "status": "passed"
             },
-            "line": 218,
+            "line": 215,
             "name": "Click on confirm cash payment",
             "match": {
               "location": "Gllsteps.click_on_confirm_cash_payment()"
@@ -403,9 +404,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 11495192913,
+              "status": "passed"
             },
-            "line": 219,
+            "line": 216,
             "name": "Validate the Auto Login \"Welcome! TEST VIKASS\"",
             "match": {
               "arguments": [
@@ -424,7 +426,7 @@
         ],
         "tags": [
           {
-            "line": 196,
+            "line": 193,
             "name": "@Reg"
           }
         ]

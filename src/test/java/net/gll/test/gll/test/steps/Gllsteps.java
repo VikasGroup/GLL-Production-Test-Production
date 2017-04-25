@@ -215,9 +215,9 @@ public class Gllsteps {
 
 	@Then("^Validate the Auto Login \"([^\"]*)\"$")
 	public void validate_the_Auto_Login(String content) throws Throwable {
-		Thread.sleep(30000);
+		Thread.sleep(5000);
 		regConfirmationPgObjects.clickCloseVO();
-		Thread.sleep(30000);
+		Thread.sleep(5000);
 	    Assert.assertEquals("Validate the Auto Login", content, regConfirmationPgObjects.getContent());
 	    
 	}
@@ -315,21 +315,28 @@ public void user_click_on_checkout_button() throws Throwable {
 
 @When("^select delivery option and click checkout \"([^\"]*)\"$")
 public void select_delivery_option_and_click_checkout(String dilivery) throws Throwable {
-	/*checkOutPgObjects.selectDeliveryOption(dilivery);
-    Thread.sleep(3000);*/
+	checkOutPgObjects.selectDeliveryOption2(dilivery);
+    Thread.sleep(3000);
 	JavascriptExecutor jse = (JavascriptExecutor)driver;
-	jse.executeScript("window.scrollBy(0,600)", "");
+	jse.executeScript("window.scrollBy(0,300)", "");
 	Thread.sleep(2000);
     checkOutPgObjects.clickCheckOutSelectPayment();
 }
 @When("^select delivery option and click checkout preprod \"([^\"]*)\"$")
 public void select_delivery_option_and_click_checkout_preprod(String arg1) throws Throwable {
+	 Thread.sleep(2000);
+	 checkOutPgObjects.clickCheckOutSelectPayment();
+}
+@Then("^select delivery option and click checkout preprod Retail\"([^\"]*)\"$")
+public void select_delivery_option_and_click_checkout_preprod_Retail(String arg1) throws Throwable {
+	
+	Thread.sleep(2000);
 	 checkOutPgObjects.clickCheckOutSelectPayment();
 }
 
 @When("^User distribute the BVs and click on countinue$")
 public void user_distribute_the_BVs_and_click_on_countinue() throws Throwable {
-	Thread.sleep(2000);
+	Thread.sleep(7000);
 	checkOutPgObjects.clickBC02();
     //Thread.sleep(2000);
     checkOutPgObjects.clickBC02();

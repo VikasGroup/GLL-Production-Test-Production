@@ -68,12 +68,9 @@ When user click on Login or Register button
 And user click on become a Retail Customer
 And user enter referrer ir id "<IR_ID>"
 And user enter name "<Title>" "<FName>" "<Lname>"
-And user select date of birth "<YEAR>" "<Month>" "<Date>"
 And enter email "<Email>"
-And user select language "<Lang>"
 And user enter mobile phone no "<Mob_no>" 
 And user enter PWD "<PWD>" "<Re_PWD>" 
-And user enter Address "<Address>" "<City>" "<PostCode>"
 And click continue btn
 Then Accept terms
 Then Validate the Auto Login "<Autologin>"
@@ -212,7 +209,7 @@ And user enter PWD "<PWD>" "<Re_PWD>"
 And user enter Address "<Address>" "<City>" "<PostCode>"
 And user enter bank details "<BankName>" "<BranchName>" "<AccNo>" "<Email>"
 Then Accept terms and conditions
-And select delivery option and click checkout preprod "<DE_OPTION>"
+And select delivery option and click checkout "<DE_OPTION>" 
 And User distribute the BVs and click on countinue
 And Select chash payments
 And Click on confirm cash payment
@@ -222,6 +219,30 @@ Examples:
     |IR_ID   |Reg_Type  |Title|FName|Lname|YEAR|Month|Date|Lang   |Mob_no     |PWD     |Re_PWD  |Address|City|PostCode|BankName           |BranchName|AccNo     |EcardNo       |PIN   |Autologin          |Email|DE_OPTION|
     |GL102223|Individual|Mr   |test |vikass|1988|06  |12  |English|94763557189|Test@135|Test@135|test   |test|0000    |MBSL - Savings Bank|Galle     |1596325874|TESTLKR0000022|QECTST|Welcome! TEST VIKASS|osura@vikas.lk|Global Lifestyle Lanka Head Office|
  
+ 
+ Scenario Outline: Test case 12
+Given user direct to the staging site
+And user click on products tab
+And user click on products link
+And user add products to the cart
+And user click on shopping cart
+And user click on checkout button
+And user click on become a Retail Customer
+And user enter referrer ir id "<IR_ID>"
+And user enter name "<Title>" "<FName>" "<Lname>"
+And enter email "<Email>"
+And user enter mobile phone no "<Mob_no>" 
+And user enter PWD "<PWD>" "<Re_PWD>" 
+And click continue btn
+Then Accept terms
+And select delivery option and click checkout preprod "<DE_OPTION>"
+And Select chash payments
+And Click on confirm cash payment
+Then Validate the Auto Login "<Autologin>"	
+
+Examples:
+    |IR_ID   |Reg_Type  |Title|FName|Lname|YEAR|Month|Date|Lang   |Mob_no     |PWD     |Re_PWD  |Address|City|PostCode|BankName           |BranchName|AccNo     |EcardNo       |PIN   |Autologin          |Email|DE_OPTION|
+    |GL102223|Individual|Mr   |test |vikass|1988|06  |12  |English|94763557189|Test@135|Test@135|test   |test|0000    |MBSL - Savings Bank|Galle     |1596325874|TESTLKR0000022|QECTST|Welcome! TEST VIKASS|osura@vikas.lk|Global Lifestyle Lanka Head Office|
  
 
 Scenario Outline: Test case 16 
@@ -233,6 +254,6 @@ And user direct to the VO page "<URL>"
 
 Examples:
     |IR_ID   |PWD     |URL|
-    |GL102223|T@stpw120|https://portal.[myqweb.biz/VO2GLLNS4S]/#/DashBoard |
+    |GL102223|T@stpw120|https://portal.myqweb.biz/VO2GLLNS4S/#/DashBoard |
     
     

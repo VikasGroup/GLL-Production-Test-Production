@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" itemscope="" class="uk-notouch"><head>
+
+    <title>Registration</title>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type" />
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport" />
+    
+    <meta content="QNRSTCCD02" itemprop="server-info" />
+    <meta content="1.0 $(BUILD_BUILDNUMBER)" itemprop="product-version" />
+    <meta content="$(BUILD_SOURCEVERSION)" itemprop="source-version" />
+    <meta content="{35A5A55D-F941-44B6-8B02-E9C7E92F9F86}" itemprop="page-id" />
+                        <link href="https://store.myqweb.biz/en/registration" rel="canonical" />
+                <link type="image/x-icon" href="/favicon.ico?v=" rel="icon" />
+
+<link rel="stylesheet" href="/Components/gll/_Shared/Views/Styles/bundle?v=4iFIqD4TFTF2bn1dED0i-ZHDOZOMMo44FS8g0vsMuLA1" />
+    
+</head>
+<body dir="">
+<input type="hidden" value="L4" id="countrycodeId" />
+<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-KZ958T"></script><script>
+    var countrycode = document.getElementById("countrycodeId").value;
+    dataLayer = [{
+        'country': '{' + countrycode + '}'
+    }];
+</script>
+<!-- Google Tag Manager -->
+<noscript>&lt;iframe src="//www.googletagmanager.com/ns.html?id=GTM-KZ958T"
+height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KZ958T');</script>
+<!-- End Google Tag Manager -->
+
+        <div data-component-parm="null" data-component-class="Dlw.ScBase.Ns4S.Header" data-component="Dlw.ScBase.Ns4S.Header">    <header class="header notooltip">
+        <div id="header-sticky-wrapper" class="sticky-wrapper is-sticky" style="height: 88px;"><div id="header" style="position: fixed; top: 0px;">
+            <div class="container section">
+                <div class="logo">
+<a href="/en"><img src="/-/media/sites/gll/logo/gll-logo.ashx?h=60&amp;w=306&amp;la=en&amp;hash=BC60D6CFE5F56B8FA5207AB86084D60AC67EEA47" /></a>                </div>
+                <div class="interactionBox">
+<div data-component-parm="{&quot;postUrl&quot;:&quot;/services/ns4s/en/MiniShoppingCart/Cart/%7B35A5A55D-F941-44B6-8B02-E9C7E92F9F86%7D?dataSource=%7B09AD11C7-E153-42EF-8256-06C9B0259CC4%7D&quot;,&quot;epointPostUrl&quot;:&quot;/services/ns4s/en/MiniShoppingCart/EPoints/%7B35A5A55D-F941-44B6-8B02-E9C7E92F9F86%7D?dataSource=%7B09AD11C7-E153-42EF-8256-06C9B0259CC4%7D&quot;}" data-component-class="Dlw.ScBase.Ns4S.MiniShoppingCart" data-component="Dlw.ScBase.Ns4S.MiniShoppingCart">    <div data-selector="mini-shopping-cart-container" class="miniShoppingCart miniDropdown minicartselector">
+        
+<a class="iconBtn empty">
+    <span data-selector="mini-cart-icon" class="icon-cart"></span>
+    <span class="cartItemNr">0</span>
+</a>
+<div class="dropdown-menu">
+    <div class="dropdown-header">
+        
+        <h3>YOUR SHOPPING CART</h3>
+        <div data-selector="mini-shopping-cart-epoint"></div>
+    </div>
+    <div class="dropdown-body">
+                                <div class="noResult">Your shopping cart is empty</div>
+    </div>
+    <div style="display: none" data-selector="miniShoppingCartLoading" class="loading maskLayout">
+        <div style="transform:scale(1);" class="uil-ring-css">
+            <div></div>
+        </div>
+    </div>
+</div>
+    </div>
+</div><div style="display:none;" data-selector="loading" class="modal loading">
+    <div style="transform:scale(1);" class="uil-ring-css"><div></div></div>
+</div>                    <div data-component-parm="{&quot;resultPageUrl&quot;:&quot;/en/search-result&quot;}" data-component-class="Dlw.ScBase.Ns4S.SearchInputBox" data-component="Dlw.ScBase.Ns4S.SearchInputBox">    <div class="siteSearch miniDropdown">
+        <a class="iconBtn"><span class="icon-search"> </span></a>
+        <div class="dropdown-menu search-dropdown">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+<form method="post" id="SearchForm" data-ajax-update="#SearchSuggest" data-ajax-mode="replace" data-ajax="true" action="/services/ns4s/en/SearchInputBox/Search/%7B35A5A55D-F941-44B6-8B02-E9C7E92F9F86%7D?datasource=%7B0462D39F-9BF0-4A2D-B964-7C309DF8548C%7D"><input type="text" value="" style="display: none;" name="DisableSubmit" id="DisableSubmit" /><input type="text" value="" placeholder="Search Global Lifestyle Lanka" name="keyword" id="keyword" class="form-control" />                            <div id="KeywordConent" class="row hidden-xs">
+                                <div class="col-sm-6">
+                                    <ul>
+                                        <li class="columnTlt">Top Searches</li>
+                                            <li>
+<a href="/en/about-us">About GLL</a>                                            </li>
+                                            <li>
+<a href="/en/opportunity/compensation-plan">Compensation Plan</a>                                            </li>
+                                            <li>
+<a href="/en/opportunity/g-star-opportunity">G Star</a>                                            </li>
+                                            <li>
+<a href="/en/opportunity/professional-marketing">Professional Marketing</a>                                            </li>
+                                            <li>
+<a href="/en/media">Sports Sponsorship</a>                                            </li>
+                                            <li>
+<a href="/en/about-us">Corporate Social Responsibility</a>                                            </li>
+                                            <li>
+<a href="/en/social-media-policy">Social Media Policy</a>                                            </li>
+                                            <li>
+<a href="/en/earnings-and-income-disclaimer">Earnings and Income Disclaimer</a>                                            </li>
+                                            <li>
+<a href="/en/media">Media</a>                                            </li>
+                                            <li>
+<a href="/en/support">Contact Us</a>                                            </li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-6">
+                                    <ul>
+                                        <li class="columnTlt">Brands</li>
+                                            <li>
+<a href="/en/health-and-wellness/homepure">HomePure</a>                                            </li>
+                                            <li>
+<a href="/en/watches-and-jewellery/bernhard-h-mayer-watches">BHM</a>                                            </li>
+                                            <li>
+<a href="/en/health-and-wellness/airpure">AirPure</a>                                            </li>
+                                            <li>
+<a href="/en/partner-products/solaron">Solaron</a>                                            </li>
+                                            <li>
+<a href="/en/technology/vikas">Vikas</a>                                            </li>
+                                            <li>
+<a href="/en/partner-products/powerlight">PowerLight</a>                                            </li>
+                                            <li>
+<a href="/en/partner-products/rashmi-kritom">Rashmi Kritom</a>                                            </li>
+                                            <li>
+<a href="/en/partner-products/gtl">GTL</a>                                            </li>
+                                            <li>
+<a href="/en/partner-products/oms">OMS</a>                                            </li>
+                                            <li>
+<a href="/en/holidays/qantara">Qantara</a>                                            </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div id="SearchSuggest" style="display: none; z-index: 10;">
+                                <div loaded="true"></div>
+                            </div>
+</form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div data-component-parm="{&quot;postUrl&quot;:&quot;/services/ns4s/en/WishList/WishList/%7B35A5A55D-F941-44B6-8B02-E9C7E92F9F86%7D&quot;,&quot;isCheckout&quot;:false,&quot;hasCartLines&quot;:&quot;False&quot;}" data-component-class="Dlw.ScBase.Ns4S.WishList" data-component="Dlw.ScBase.Ns4S.WishList">    <div data-selector="wish-list-container" class="wishListCart miniDropdown noWish">
+                <a class="iconBtn">
+            <span class="icon-favorite"></span>
+            <span class="icon-favorite-s"> </span>
+        </a>
+    <div class="dropdown-menu">
+        <div class="dropdown-header">
+            
+            <h3>YOUR WISH LIST</h3>
+        </div>
+        <div hadcartline="False" class="dropdown-body">
+                <div class="noResult">Your wish list is empty</div>
+
+        </div>
+    </div>
+    </div>
+</div>                </div>
+                <div class="line visible-sm visible-xs"></div>
+                <div class="zeroTools">
+                    <div data-component-parm="null" data-component-class="Dlw.ScBase.Ns4S.CountrySwitch" data-component="Dlw.ScBase.Ns4S.CountrySwitch" class="countrySwitch">    <a data-target="#countrySelect" data-toggle="modal" class="countrySelect"> <img title="Sri Lanka" alt="Sri Lanka" src="/-/media/sites/shared/country/srilanka.ashx" /></a>
+<form method="post" id="form1" data-ajax-update="#country-switch-languages" data-ajax-mode="replace" data-ajax-method="POST" data-ajax="true" class="hidden" action="/services/ns4s/en/CountrySwitch/ChangeCountry/%7B35A5A55D-F941-44B6-8B02-E9C7E92F9F86%7D">        <input type="hidden" data-selector="hidden-selected-country" id="SelectedCountry" name="SelectedCountry" />
+        <input type="submit" class="hidden" data-selector="country-submit" />
+</form>    <div id="country-switch-languages" class="dropdown languageDropdown">
+        <a aria-expanded="false" aria-haspopup="true" data-toggle="dropdown" class="dropdown-toggle noTextSelect">
+    English
+        <span class="caret"></span>
+</a>
+    <ul aria-labelledby="language" class="dropdown-menu">
+
+            <li class="">
+                <a href="/en/registration?type=2">English</a>
+            </li>
+            <li class="">
+                <a href="/si/registration?type=2">සිංහල</a>
+            </li>
+            <li class="">
+                <a href="/ta-in/registration?type=2">தமிழ்</a>
+            </li>
+    </ul>
+
+    </div>
+</div>
+
+
+                    <div class="mobilePlace">
+                            <a href="/en/login?returnUrl=http://store.myqweb.biz/en/registration?type=2">Login or Register</a>
+                    </div>
+                </div>
+
+                <div class="reset"></div>
+            </div>
+            <div class="navi">
+
+                <div class="container section">
+                    <div class="naviContent" style="right: 165px;">
+
+                        <button aria-controls="mainNavi" aria-expanded="false" data-target="#mainNavi" data-toggle="collapse" class="navbar-toggle collapsed visible-sm visible-xs" type="button">
+                            <span class="menuBtn"> <i class="icon-menu"></i></span>Registration
+                        </button>
+                        <div id="mainNavi" class="collapse mainNavi-collapse">
+                            <ul class="mainNavi" style="max-height: 508px;">
+                                        <li class="dropdown dropdownProd ">
+                                                <a class="dropdown-toggle hidden-sm hidden-xs" href="#">Products</a>
+                                            <div class="dropdown-menu naviDoormat doormatProd">
+    <div class="container">
+        
+
+
+
+            <div class="column" style="width: 285px;">
+                <ul class="subNavi">
+            <li class="collapseBox ">
+                <a class="collapseIcon" href="#"><span class="icon-shrink"> </span><span class="icon-stretch"> </span></a><a class="naviProd" href="/en/health-and-wellness">Health and Wellness</a>
+                <ul>
+
+
+                        <li><a href="/en/health-and-wellness/homepure">HomePure</a></li>
+                        <li><a href="/en/health-and-wellness/airpure">AirPure</a></li>
+                </ul>
+            </li>
+            <li class="collapseBox ">
+                <a class="collapseIcon" href="#"><span class="icon-shrink"> </span><span class="icon-stretch"> </span></a><a class="naviProd" href="/en/watches-and-jewellery">Watches and Jewellery</a>
+                <ul>
+
+
+                        <li><a href="/en/watches-and-jewellery/bernhard-h-mayer-watches">Bernhard H. Mayer® – Watches</a></li>
+                        <li><a href="/en/watches-and-jewellery/adiva-divine">Adiva Divine</a></li>
+                        <li><a href="/en/watches-and-jewellery/de-moda">De Moda</a></li>
+                </ul>
+            </li>
+            <li class="collapseBox ">
+                <a class="collapseIcon" href="#"><span class="icon-shrink"> </span><span class="icon-stretch"> </span></a><a class="naviProd" href="/en/holidays">Holidays</a>
+                <ul>
+
+
+                        <li><a href="/en/holidays/qantara">Qantara</a></li>
+                </ul>
+            </li>
+                                    </ul>
+            </div>
+            <div class="column" style="width: 285px;">
+                <ul class="subNavi">
+            <li class="collapseBox ">
+                <a class="collapseIcon" href="#"><span class="icon-shrink"> </span><span class="icon-stretch"> </span></a><a class="naviProd" href="/en/technology">Technology</a>
+                <ul>
+
+
+                        <li><a href="/en/technology/siteqlik">SITEQLIK</a></li>
+                        <li><a href="/en/technology/vikas">Vikas</a></li>
+                </ul>
+            </li>
+                                    </ul>
+            </div>
+            <div class="column" style="width: 285px;">
+                <ul class="subNavi">
+            <li class="collapseBox ">
+                <a class="collapseIcon" href="#"><span class="icon-shrink"> </span><span class="icon-stretch"> </span></a><a class="naviProd" href="/en/partner-products">Partner Products</a>
+                <ul>
+
+
+                        <li><a href="/en/partner-products/dell">DELL</a></li>
+                        <li><a href="/en/partner-products/gtl">GTL</a></li>
+                        <li><a href="/en/partner-products/oms">OMS</a></li>
+                        <li><a href="/en/partner-products/powerlight">PowerLight</a></li>
+                        <li><a href="/en/partner-products/rashmi-kritom">Rashmi Kritom</a></li>
+                        <li><a href="/en/partner-products/aclan">⁠⁠⁠Aclan</a></li>
+                        <li><a href="/en/partner-products/audra">Audra</a></li>
+                        <li><a href="/en/partner-products/autarky-wood-craft">Autarky Wood Craft</a></li>
+                        <li><a href="/en/partner-products/protech">Protech</a></li>
+                        <li><a href="/en/partner-products/tembo">Tembo</a></li>
+                        <li><a href="/en/partner-products/solaron">Solaron</a></li>
+                </ul>
+            </li>
+                                    </ul>
+            </div>
+
+
+        <div class="column visible-sm visible-xs">
+            <ul class="subNavi">
+            </ul>
+        </div>
+
+            <div class="column hidden-sm hidden-xs" style="width: 285px;">
+                <ul class="subNavi">
+                    
+                </ul>
+            </div>
+
+
+    </div>
+</div>
+                                        </li>
+                                        <li class=" ">
+<a class="dropdown-toggle" href="/en/about-us">About Us</a>
+                                        </li>
+                                        <li class=" ">
+
+                                        </li>
+                                        <li class=" ">
+<a class="dropdown-toggle" href="/en/opportunity">Opportunity</a>
+                                        </li>
+                                        <li class=" ">
+<a class="dropdown-toggle" href="/en/support">Support</a>
+                                        </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div></div>
+    </header>
+    <div>
+    </div>
+</div>
+
+
+<div class="website-wrapper">
+    
+
+    
+        <div class="breadcrumbs hidden-sm hidden-xs">
+        <div class="container">
+
+                        <a href="/en">Home</a>
+                        <span class="sep">&gt;</span>
+Registration        </div>
+    </div>
+
+
+<div data-component-parm="{&quot;ccPaymentLink&quot;:&quot;/services/ns4s/en/Registration/UpdateCcForm&quot;,&quot;sendOtpToMobile&quot;:&quot;/services/ns4s/en/Registration/SendOtpCodeToMobile&quot;,&quot;validataOtpCodeFromMobile&quot;:&quot;/services/ns4s/en/Registration/ValidataOtpCodeFromMobile&quot;,&quot;makeCashPayment&quot;:&quot;/services/ns4s/en/Registration/MakeCashPayment&quot;,&quot;wait&quot;:0}" data-component-class="Dlw.ScBase.Ns4S.Registration" data-component="Dlw.ScBase.Ns4S.Registration">    <div data-customertype="2" data-plan="28" data-selector="registration-form-panel" class="section registerSection">
+        <div class="container">
+            <div aria-multiselectable="true" role="tablist" id="accordion" class="panel-group">
+                <div class="panel">
+                    <div id="headingOne" role="tab" class="panel-heading">
+                        <h4 class="panel-title"> <a aria-controls="collapseOne" aria-expanded="true" href="#collapseOne" data-parent="#accordion" data-toggle="collapse" role="button" data-step="1" id="registration-details-toggle"> 1. REGISTRATION DETAILS </a> </h4>
+                    </div>
+                    <div aria-labelledby="headingOne" role="tabpanel" class="panel-collapse collapse in" id="collapseOne">
+                        
+<div class="panel-body">
+<form method="post" id="registration-details-form" data-ajax-success="Dlw.ScBase.Ns4S.Registration.prototype.registrationRnFValidation(data)" data-ajax="true" class="form-horizontal" action="/services/ns4s/en/Registration/CheckRegisterDetails/%7B35A5A55D-F941-44B6-8B02-E9C7E92F9F86%7D" novalidate="novalidate"><input type="hidden" value="nMB9urDOnDvUv3d8Vh4OJOV1_62BP8R9NdVjPJX0gVJ3JBeG6vQ1XdnyYvxkBRV1EWv1d3fQU0jdoSP1-637ZucmrPY1" name="__RequestVerificationToken" /><input type="hidden" value="28" name="CommPlanID" id="CommPlanID" /><input type="hidden" value="2" name="CustomerType" id="CustomerType" /><input type="hidden" value="/services/ns4s/en/Registration/UpdateLanguages" name="Url" id="Url" data-selector="registration-update-languages" /><input type="hidden" value="/services/ns4s/en/Registration/GetReferrerName" name="GetReferrerName" id="GetReferrerName" data-selector="registration-getirname" /><input type="hidden" value="L4" name="ShippingCountryCode" id="ShippingCountryCode" data-selector="shipping-country-code" /><input type="hidden" value="/services/ns4s/en/Registration/RegistrationRnFValidation" name="RegistrationRnFValidation" id="RegistrationRnFValidation" data-selector="registration-rnf-validation" />        <div class="form-group">
+            <label class="col-sm-2 control-label">
+                Country <span class="required" aria-required="true"></span>
+            </label>
+            <div class="col-sm-4">
+<select name="Country" id="Country" data-selector="registration-country" class="form-control"><option value="L4">Sri Lanka</option>
+</select><span data-valmsg-replace="true" data-valmsg-for="Country" class="field-validation-valid errorMsg"></span>            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">
+                Referrer BA ID
+                <span class="required" aria-required="true"></span>
+            </label>
+            <div class="col-sm-4 col-xs-10">
+                <input type="text" value="" required="" placeholder="Enter your referrer's BA ID here" name="ReferrerID" id="ReferrerID" data-val-remote-url="/services/ns4s/en/Registration/ValidateReferrer" data-val-remote-additionalfields="*.ReferrerID,*.Country,*.CommPlanID,*.CustomerType" data-val-remote="Oops! This BA ID is invalid." data-val-length-min="0" data-val-length-max="8" data-val-length="#Invalid number of characters ReferrerID#" data-val="true" data-msg-required="Sorry, but this field is required." class="form-control valid" maxlength="8" aria-required="true" aria-invalid="false" aria-describedby="ReferrerID-error" />
+                <span data-valmsg-replace="true" data-valmsg-for="ReferrerID" class="errorMsg field-validation-valid"></span>
+            </div>
+                <div class="col-sm-2 col-xs-2">
+                    <a title="" class="infoBtn" data-original-title="Remember, you’re not allowed to have more than one account. Any duplication of account is a violation of the company’s Policies &amp; Procedures. If you are found committing such violation, you will be subject to any action the company deems fit.">?</a>
+                </div>
+        </div>
+        <div data-message="You have chosen {4} as your Referrer. If this is correct, please continue your registration." data-selector="registration-referrer-name" class="form-group">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-4">
+                <p>You have chosen TREN******ABRI as your Referrer. If this is correct, please continue your registration.</p>
+            </div>
+        </div>
+        <!-- for individual -->
+        <div data-nature="individual" class="form-group">
+            <label class="col-sm-2 control-label">
+                First Name <span class="required" aria-required="true"></span>
+            </label>
+            <div class="col-sm-4">
+                <div class="row">
+                    <div class="col-xs-6 col-sm-5">
+                        <select name="Title" id="Title" data-val-required="Sorry, but this field is required." data-val="true" class="form-control valid" aria-required="true" aria-invalid="false" aria-describedby="Title-error"><option value="">Select title</option>
+<option value="003">Ms</option>
+<option value="005">Mrs</option>
+<option value="002">Mr</option>
+<option value="007">Dr</option>
+</select>
+                        <span data-valmsg-replace="true" data-valmsg-for="Title" class="errorMsg field-validation-valid"></span>
+                    </div>
+                    <div class="col-xs-6 col-sm-7">
+                        <input type="text" value="" placeholder="Enter first name" name="FirstName" id="FirstName" data-val-required="Sorry, but this field is required." data-val-length-min="0" data-val-length-max="64" data-val-length="#Invalid number of characters FirstName#" data-val="true" class="form-control valid" maxlength="64" aria-required="true" aria-invalid="false" aria-describedby="FirstName-error" />
+                        <span data-valmsg-replace="true" data-valmsg-for="FirstName" class="errorMsg field-validation-valid"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div data-nature="individual" class="form-group">
+            <label class="col-sm-2 control-label">
+                Last Name <span class="required" aria-required="true"></span>
+            </label>
+            <div class="col-sm-4">
+                <input type="text" value="" placeholder="Enter your last name" name="LastName" id="LastName" data-val-required="Sorry, but this field is required." data-val-length-min="0" data-val-length-max="70" data-val-length="#Invalid number of characters LastName#" data-val="true" class="form-control" maxlength="70" />
+                <span data-valmsg-replace="true" data-valmsg-for="LastName" class="field-validation-valid errorMsg"></span>
+            </div>
+        </div>
+        <!--for comapny-->
+        <div data-nature="individual" class="form-group hidden">
+            <label class="col-sm-2 control-label">
+                Date of Birth <span class="required" aria-required="true"></span>
+            </label>
+            <div class="col-sm-4">
+                <input type="text" value="01/01/1900" placeholder="Select your date of birth" name="Birthdate" id="datepicker" data-val-required="Your birth date is required." data-val-remote-url="/services/ns4s/en/Registration/ValidateBirthdayRange" data-val-remote-additionalfields="*.Birthdate" data-val-remote="#Age should be over 18 years old#" data-val-regex-pattern="^(?:(?:(?:0[1-9]|1[0-2])/(?:0[1-9]|1[0-9]|2[0-8])|(?:0[13-9]|1[0-2])/(?:29|30)|(?:0[13578]|1[02])/31)/(?!0000)[0-9]{4}|02/29/(?:[0-9]{2}(?:0[48]|[2468][048]|[13579][26])|(?:0[48]|[2468][048]|[13579][26])00))$" data-val-regex="Format should be mm/dd/yyyy" data-val="true" class="form-control hasDatepicker" />
+                <input type="hidden" value="18" data-selector="registration-agelimit" />
+                <span data-valmsg-replace="true" data-valmsg-for="Birthdate" class="field-validation-valid errorMsg"></span>
+            </div>
+        </div>
+        <div class="form-group hidden">
+            <label class="col-sm-2 control-label">
+                Language <span class="required" aria-required="true"></span>
+            </label>
+            <div class="col-sm-4">
+                <select name="PreferredLanguage" id="PreferredLanguage" data-val-required="Sorry, but this field is required." data-val="true" data-selector="registration-languages" class="form-control"><option value="en">English</option>
+<option value="si">සිංහල</option>
+<option value="ta-IN">தமிழ்</option>
+</select>
+                <span data-valmsg-replace="true" data-valmsg-for="PreferredLanguage" class="field-validation-valid errorMsg"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">
+                Email <span class="required" aria-required="true"></span>
+            </label>
+            <div class="col-sm-4">
+                <input type="text" value="" placeholder="e.g. you@domain.com" name="Email" id="Email" data-val-required="Sorry, but this field is required." data-val-remote-url="/services/ns4s/en/Registration/CheckEmailExists" data-val-remote-additionalfields="*.Email,*.Country" data-val-remote="Sorry, this email already exists. " data-val-regex-pattern="^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$" data-val-regex="Oops! That's an invalid format." data-val-length-min="0" data-val-length-max="100" data-val-length="#Invalid number of characters Email#" data-val="true" class="form-control" maxlength="100" />
+                <span data-valmsg-replace="true" data-valmsg-for="Email" class="field-validation-valid errorMsg"></span>
+            </div>
+            <div class="col-sm-4">
+                <input type="text" value="" placeholder="Re-enter your email address" name="Email2" id="Email2" data-val-required="Sorry, but this field is required." data-val-length-min="0" data-val-length-max="100" data-val-length="#Invalid number of characters Email2#" data-val-equalto-other="Email" data-val-equalto="Your email does not match." data-val="true" class="form-control" maxlength="100" />
+                <span data-valmsg-replace="true" data-valmsg-for="Email2" class="field-validation-valid errorMsg"></span>
+            </div>
+        </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">
+                    Password <span class="required" aria-required="true"></span>
+                </label>
+                <div class="col-sm-4 col-xs-10">
+                    <input type="password" value="" placeholder="Enter your password here" name="Password" id="Password" data-val-required="Sorry, but this field is required." data-val-remote-url="/services/ns4s/en/Registration/ValidatePassword" data-val-remote-additionalfields="*.Password" data-val-remote="Oops! That's an invalid format." data-val-length-min="8" data-val-length-max="14" data-val-length="Oops! That's an invalid format." data-val="true" class="form-control" maxlength="14" />
+                    <span data-valmsg-replace="true" data-valmsg-for="Password" class="field-validation-valid errorMsg"></span>
+                </div>
+                <div class="col-sm-4 col-xs-10">
+                    <input type="password" value="" placeholder="Re-enter your password" name="Password2" id="Password2" data-val-required="Sorry, but this field is required." data-val-remote-url="/services/ns4s/en/Registration/ValidatePassword" data-val-remote-additionalfields="*.Password2" data-val-remote="Oops! That's an invalid format." data-val-length-min="8" data-val-length-max="14" data-val-length="Oops! That's an invalid format." data-val-equalto-other="Password" data-val-equalto="Sorry, but this password should match the first one." data-val="true" class="form-control" maxlength="14" />
+                    <span data-valmsg-replace="true" data-valmsg-for="Password2" class="field-validation-valid errorMsg"></span>
+                </div>
+                    <div class="col-sm-2 col-xs-2">
+                        <a title="" class="infoBtn" data-original-title="Password must be 8-14 characters in length and must have, at least, one capital letter (A-Z), one small letter (a-z), one number (0-9), and at least one special character ( _!@#$%^&amp;*(),.+?). No repeat or sequential series of letters or numbers (e.g. abc, 321, aaa, 444) not allowed.">?</a>
+                    </div>
+            </div>
+        <!-- OTP -->
+        <div class="form-group">
+            <label class="col-sm-2 control-label">
+                Mobile phone<span class="required" aria-required="true"></span>
+            </label>
+            <div class="col-sm-4 col-xs-10">
+                <input type="text" value="" placeholder="e.g. 94773123456" name="MobileNo" id="MobileNo" data-val-required="Sorry, but this field is required." data-val-regex-pattern="^[0-9]+$" data-val-regex="Oops! Sorry, but that mobile number is invalid." data-val-length-min="8" data-val-length-max="50" data-val-length="#Invalid number of characters MobileNo#" data-val="true" class="form-control" maxlength="50" />
+                <span data-valmsg-replace="true" data-valmsg-for="MobileNo" class="field-validation-valid errorMsg"></span>
+            </div>
+            <div class="col-sm-6 col-xs-2">
+                    <a title="" class="infoBtn" data-original-title="You cannot use a duplicate mobile phone number.">?</a>
+                            </div>
+        </div>
+        <!-- OTP -->
+        <div class="form-group hidden">
+            <label class="col-sm-2 control-label">
+                Address <span class="required" aria-required="true"></span>
+            </label>
+            <div class="col-sm-4">
+                <input type="text" value="_Default_" placeholder="Enter address line 1 here" name="AddressLine1" id="AddressLine1" data-val-required="Sorry, but this field is required." data-val-length-min="0" data-val-length-max="120" data-val-length="#Invalid number of characters AddressLine1#" data-val="true" class="form-control" maxlength="120" />
+                <span data-valmsg-replace="true" data-valmsg-for="AddressLine1" class="field-validation-valid errorMsg"></span>
+            </div>
+            <div class="col-sm-4">
+                <input type="text" value="" placeholder="Enter address line 2 here" name="AddressLine2" id="AddressLine2" data-val-length-min="0" data-val-length-max="120" data-val-length="#Invalid number of characters AddressLine2#" data-val="true" class="form-control" maxlength="120" />
+                <span data-valmsg-replace="true" data-valmsg-for="AddressLine2" class="field-validation-valid errorMsg"></span>
+            </div>
+        </div>
+        <div class="form-group hidden">
+            <label class="col-sm-2 control-label">
+                City <span class="required" aria-required="true"></span>
+            </label>
+            <div class="col-sm-4">
+                <input type="text" value="_Default_" placeholder="Enter your city here" name="City" id="City" data-val-required="Sorry, but this field is required." data-val-length-min="0" data-val-length-max="64" data-val-length="#Invalid number of characters City#" data-val="true" class="form-control" maxlength="64" />
+                <span data-valmsg-replace="true" data-valmsg-for="City" class="field-validation-valid errorMsg"></span>
+            </div>
+        </div>
+        <div class="form-group hidden">
+            <label class="col-sm-2 control-label">Province </label>
+            <div class="col-sm-4">
+                <input type="text" value="" placeholder="Optional" name="State" id="State" data-val-length-min="0" data-val-length-max="64" data-val-length="#Invalid number of characters State#" data-val="true" class="form-control" maxlength="64" />
+                <span data-valmsg-replace="true" data-valmsg-for="State" class="field-validation-valid errorMsg"></span>
+            </div>
+        </div>
+        <div class="form-group hidden">
+            <label class="col-sm-2 control-label">
+                Postal Code
+                <span class="required" aria-required="true"></span>
+            </label>
+            <div class="col-sm-4 col-xs-10">
+                <input type="text" value="0000" required="" placeholder="Enter postal code here" name="ZipCode" id="ZipCode" data-val-regex-pattern="^[a-zA-Z0-9]+$" data-val-regex="Oops! This is an invalid format." data-val-length-min="0" data-val-length-max="20" data-val-length="#Invalid number of characters ZipCode#" data-val="true" data-msg-required="Sorry, but this field is required." class="form-control" maxlength="20" aria-required="true" />
+                <span data-valmsg-replace="true" data-valmsg-for="ZipCode" class="field-validation-valid errorMsg"></span>
+            </div>
+                <div class="col-sm-2 col-xs-2">
+                    <a title="" class="infoBtn" data-original-title="If you do not know the postal code, please enter 0000.">?</a>
+                </div>
+        </div>
+        <div class="buttonBox">
+            <div class="col-sm-12">
+                <div class="errorMsg uk-float-left" data-selector="registration-details-rnfvalidation-error-message"></div>
+            </div>
+            <button class="button orange " value="CheckRegisterDetails" type="submit" data-connection="registration-terms-toggle" data-selector="registration-action-button">Continue</button>
+            
+        </div>
+</form></div>
+                    </div>
+                </div>
+                <div class="panel">
+                    <div id="headingTwo" role="tab" class="panel-heading">
+                        <h4 class="panel-title"> <a aria-controls="collapseTwo" aria-expanded="false" href="#collapseTwo" data-parent="#accordion" data-toggle="collapse" role="button" class="collapsed disabled" data-step="2" id="registration-terms-toggle">2. ACCEPTANCE OF TERMS AND CONDITIONS </a> </h4>
+                    </div>
+                    <div aria-labelledby="headingTwo" role="tabpanel" class="panel-collapse collapse " id="collapseTwo">
+                        
+<div class="panel-body">
+<form method="post" id="registration-terms-form" data-ajax-update="#terms-form-span-message" data-ajax-mode="replace" data-ajax="true" class="form-horizontal" action="/services/ns4s/en/Registration/Aknowledge/%7B35A5A55D-F941-44B6-8B02-E9C7E92F9F86%7D"><input type="hidden" value="FV63PrAtZHc4iqJCkk_UhwxjN6MRudb6i0-7hB0V8eOwrYj0c9E5IrmwTJRrlSy5j3ojYx4tQY2l4vpoTFzUr-refD01" name="__RequestVerificationToken" /><input type="hidden" value="" name="Transfer" id="registration-transfer" /><input type="hidden" value="" name="Verification" id="registration-verification-link" /><input type="hidden" value="" name="ConfirmationLink" id="registration-confirmation-link" /><p style="text-align: justify; background-color: #ffffff;"><strong>By clicking ACCEPT, I agree that:</strong></p>
+<ul>
+    <li style="text-align: justify; background-color: #ffffff;"><span style="background-color: #ffffff; color: #212121;">I acknowledge and understand that the information submitted by me will be kept, maintained, and processed securely for the purposes outlined in the Company’s Privacy Policy which can be accessed </span><strong style="color: #212121; background-color: #ffffff;"><span style="text-decoration: underline;"><a target="_blank" href="/en/privacy-policy">here</a></span><a href="/en/privacy-policy"></a></strong><span style="background-color: #ffffff; color: #212121;">.</span></li>
+</ul>                <div class="clause">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" data-selector="registration-term-checkbox" />I accept the terms and conditions mentioned above.
+                                </label>
+                            </div>
+                </div>
+        <span class="errorMsg" data-errormsg="Please tick the box above" id="terms-form-span-message"></span>
+        <div class="buttonBox">
+            <button class="button orange" value="Aknowledge" type="button" data-selector="terms-action-button">Accept</button>
+        </div>
+</form></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <input type="hidden" element-selector="eCartFormatValidationMsg" value="Oops! That's an invalid format." />
+        <div style="display:none;" data-selector="loading" class="modal loading">
+            <div style="transform: scale(1);" class="uil-ring-css">
+                <div></div>
+                <p>Hold on! Don't close this window while we process your transaction.</p>
+            </div>
+        </div>
+    </div>
+</div>    
+    
+
+    <footer class="section footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9">
+                <div class="sitemap">
+                    <div class="row">
+                            <div class="col-sm-4 col-3">
+                                        <ul>
+                                            <li class="columnTlt">About Us</li>
+                                                <li>
+<a href="/en/about-us/corporate-social-responsibility">Corporate Social Responsibility</a>                                                </li>
+                                            <li class="visible-xs">
+
+<a href="/en/about-us">About Us</a>                                                                                                    <span>-</span>
+                                            </li>
+                                        </ul>
+                            </div>
+                            <div class="col-sm-4 col-3">
+                                        <ul>
+                                            <li class="columnTlt">Opportunity</li>
+                                                <li>
+<a href="/en/opportunity/compensation-plan">Compensation Plan</a>                                                </li>
+                                                <li>
+                                                </li>
+                                                <li>
+<a href="/en/opportunity/professional-marketing">Professional Marketing</a>                                                </li>
+                                                <li>
+<a href="/en/opportunity/g-star-opportunity">G Star Opportunity</a>                                                </li>
+                                            <li class="visible-xs">
+
+<a href="/en/opportunity">Opportunity</a>                                                                                                    <span>-</span>
+                                            </li>
+                                        </ul>
+                            </div>
+                            <div class="col-sm-4 col-3">
+                                        <ul>
+                                            <li class="columnTlt">Support</li>
+                                                <li>
+<a href="/en/support">Contact Us</a>                                                </li>
+                                            <li class="visible-xs">
+
+<a href="/en/support">Support</a>                                                                                                    <span>-</span>
+                                            </li>
+                                        </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="socialbox">
+                    <h3 class="columnTlt">Our Social Media</h3>
+                    <ul>
+
+                            <li>
+
+<a target="_blank" class="socialIcon" href="https://www.facebook.com/globallifestylelanka/">                                    <span class="icon-facebook"> </span>
+</a>                            </li>
+                            <li>
+
+<a target="_blank" class="socialIcon" href="%20https://www.instagram.com/globallifestylelanka/">                                    <span class="icon-instagram"> </span>
+</a>                            </li>
+                            <li>
+
+<a target="_blank" class="socialIcon" href="https://plus.google.com/u/0/114908505377657274033/posts">                                    <span class="icon-google-plus"> </span>
+</a>                            </li>
+                            <li>
+
+<a target="_blank" class="socialIcon" href="https://www.youtube.com/channel/UCBC_DbqQ-DVpds3A1sQRf2Q">                                    <span class="icon-youtube"> </span>
+</a>                            </li>
+                            <li>
+
+<a target="_blank" class="socialIcon" href="https://twitter.com/GLLANKA/following">                                    <span class="icon-twitter"> </span>
+</a>                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="crossLinks">
+<a href="/en/site-map">Site Map</a>                <span class="divider">|</span>
+<a href="/en/earnings-and-income-disclaimer">Earnings and Income Disclaimer</a>                <span class="divider">|</span>
+<a href="/en/disclaimer">Disclaimer</a>                <span class="divider">|</span>
+<a href="/en/code-of-conduct">Code of Conduct</a>                <span class="divider">|</span>
+<a href="/en/terms-of-use">Terms of Use</a>                <span class="divider">|</span>
+<a href="/en/privacy-policy">Privacy Policy</a>                <span class="divider">|</span>
+<a href="/en/social-media-policy">Social Media Policy</a>        </div>
+    </div>
+    <div class="partnerLogos">
+        <div class="container">
+            <div class="row">
+
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <div class="container">
+            <p>Copyright © 2017 Global Lifestyle Lanka Pvt. Ltd. All rights reserved.</p>
+        </div>
+    </div>
+
+        <div>
+                <input type="hidden" id="LiveChatIsLoggedIn" value="0" />
+
+            <input type="hidden" id="LiveChatUserName" value=" " />
+            <input type="hidden" id="LiveChatEmailAddress" />
+            <input type="hidden" value="BR" id="currentLanguage" />
+            <input type="hidden" id="LiveChatTcoId" />
+            <input type="hidden" id="hasLiveChat" value="1" />
+        </div>
+
+    <script type="text/javascript">
+        var hasLiveChat = document.getElementById('hasLiveChat').value;
+        if (hasLiveChat === "1") {
+            var lcIsLoggedIn = document.getElementById('LiveChatIsLoggedIn').value;
+            window.$zopim(function () {
+                var language = document.getElementById("currentLanguage").value;
+                if (lcIsLoggedIn === "0") {
+                    window.$zopim.livechat.clearAll();
+                    window.$zopim.livechat.setLanguage(language);
+                } else {
+                    window.$zopim.livechat.set({
+                        language: language,
+                        name: document.getElementById('LiveChatUserName').value,
+                        email: document.getElementById('LiveChatEmailAddress').value,
+                        notes: document.getElementById('LiveChatTcoId').value
+                    });
+                }
+            });
+        }
+    </script>
+</footer>
+
+
+</div>
+<!-- Needed to get visitor identifiation working -->
+
+
+
+<script src="/bundles/gll-basic-js?v=A425s1tvZgO-64HL_YhfBgKUlUT941y3q-pmf5CbDbE1"></script>
+
+    <script src="/bundles/gll-components?v=HAiYGP4flc_AwAUlyjV5_G9V8OJIiddL6Lrf_h7lYcQ1"></script>
+
+
+
+<!-- release jQuery $ variable to avoid sitecore pageeditor js errors (prototype) -->
+<script>
+    if (window.jQuery) {
+        jQuery.noConflict();
+    }
+</script>
+
+
+<div class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all" id="ui-datepicker-div"></div></body><canvas id="fxdriver-screenshot-canvas" style="display: none;" width="1349" height="1412"></canvas></html>

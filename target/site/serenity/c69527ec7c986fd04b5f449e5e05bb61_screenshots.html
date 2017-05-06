@@ -1,0 +1,203 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-bdd-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">GLL Test Project</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <a
+                    href="024eaf1c4480e01474a2077bf51674fb.html">Gll Smoke Test</a>
+                > <a
+                    href="c69527ec7c986fd04b5f449e5e05bb61.html">Test case 05 </a>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="d782c44557441225cc92a5e35bf4b23b.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 05-05-2017 16:17</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Gll Smoke Test</span>
+                                    <span class="badge tag-badge">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="3ca73bc5106b969db77b0e45db84f62f.html">Regprod
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-3x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Test Case 05
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given user direct to the site<br>When user click on Login or Register button<br>And user click on become a Bus Asso<br>And user select registration type "&lt;Reg_Type&gt;"<br>And user enter referrer ir id "&lt;IR_ID&gt;"<br>And user enter name "&lt;Title&gt;" "&lt;FName&gt;" "&lt;Lname&gt;"<br>And user select date of birth "&lt;YEAR&gt;" "&lt;Month&gt;" "&lt;Date&gt;"<br>And user select language "&lt;Lang&gt;"<br>And user enter mobile phone no "&lt;Mob_no&gt;"<br>And user enter PWD "&lt;PWD&gt;" "&lt;PWD&gt;"<br>And user enter Address "&lt;FName&gt;" "&lt;FName&gt;" "&lt;PostCode&gt;"<br>And user enter bank details "&lt;BankName&gt;" "&lt;BranchName&gt;" "&lt;AccNo&gt;" "osura@&lt;Lname&gt;.lk"<br>Then Accept terms<br>And Enter ecard details and validate "&lt;EcardNo&gt;" "&lt;PIN&gt;"<br>And Click on confirm button<br>Then Validate the Auto Login "&lt;Autologin&gt;"</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="b7f5471f3f7fc0096a9bcb4a75c398db.png" title="Test case 05 #1: {IR_ID=GL621185, Reg_Type=Individual, Title=Mr, FName=test, Lname=vikas, YEAR=1988, Month=05, Date=12, Lang=English, Mob_no=94778186251, PWD=Test@135, Re_PWD=Test@135, Address=test, City=test, PostCode=0000, BankName=MBSL - Savings Bank, BranchName=Galle, AccNo=1596325874, EcardNo=TESTLKR0000131, PIN=PRDECT, Autologin=Welcome! TEST VIKAS, Email=osura@vikas.lk}" width="960"/>
+                <img src="5d378788e3b68749a104c060e2a2ee79.png" title="Given user direct to the site" width="960"/>
+                <img src="5d378788e3b68749a104c060e2a2ee79.png" title="When user click on Login or Register button" width="960"/>
+                <img src="5d378788e3b68749a104c060e2a2ee79.png" title="And user click on become a Bus Asso" width="960"/>
+                <img src="458220ed3fea3c9fdcefdef451424a8e.png" title="And user click on become a Bus Asso" width="960"/>
+                <img src="458220ed3fea3c9fdcefdef451424a8e.png" title="And user select registration type &quot;Individual&quot;" width="960"/>
+                <img src="458220ed3fea3c9fdcefdef451424a8e.png" title="And user enter referrer ir id &quot;GL621185&quot;" width="960"/>
+                <img src="d1d3646908d6f788f74e02149c973b63.png" title="And user enter referrer ir id &quot;GL621185&quot;" width="960"/>
+                <img src="d1d3646908d6f788f74e02149c973b63.png" title="And user enter name &quot;Mr&quot; &quot;test&quot; &quot;vikas&quot;" width="960"/>
+                <img src="c4df96e82208a494c0bb3d278a0de0d9.png" title="And user enter name &quot;Mr&quot; &quot;test&quot; &quot;vikas&quot;" width="960"/>
+                <img src="c4df96e82208a494c0bb3d278a0de0d9.png" title="And user select date of birth &quot;1988&quot; &quot;05&quot; &quot;12&quot;" width="960"/>
+                <img src="4e89d1e958c8b3da027ac47a78ed0297.png" title="And user select date of birth &quot;1988&quot; &quot;05&quot; &quot;12&quot;" width="960"/>
+                <img src="f683420828d3ac075bd3588305525ce1.png" title="And user select language &quot;English&quot;" width="960"/>
+                <img src="f683420828d3ac075bd3588305525ce1.png" title="And user enter mobile phone no &quot;94778186251&quot;" width="960"/>
+                <img src="f683420828d3ac075bd3588305525ce1.png" title="And user enter PWD &quot;Test@135&quot; &quot;Test@135&quot;" width="960"/>
+                <img src="11a8d492f2e703ce606b27c0f67fc415.png" title="And user enter PWD &quot;Test@135&quot; &quot;Test@135&quot;" width="960"/>
+                <img src="11a8d492f2e703ce606b27c0f67fc415.png" title="And user enter Address &quot;test&quot; &quot;test&quot; &quot;0000&quot;" width="960"/>
+                <img src="5a2fe2fe7503bf08524f149027dbb7d7.png" title="And user enter Address &quot;test&quot; &quot;test&quot; &quot;0000&quot;" width="960"/>
+                <img src="5a2fe2fe7503bf08524f149027dbb7d7.png" title="And user enter bank details &quot;MBSL - Savings Bank&quot; &quot;Galle&quot; &quot;1596325874&quot; &quot;osura@vikas.lk&quot;" width="960"/>
+                <img src="1c226037599a1b59fc8f221ae02826cf.png" title="And user enter bank details &quot;MBSL - Savings Bank&quot; &quot;Galle&quot; &quot;1596325874&quot; &quot;osura@vikas.lk&quot;" width="960"/>
+                <img src="1c226037599a1b59fc8f221ae02826cf.png" title="Then Accept terms" width="960"/>
+                <img src="b79a528f4dfa60b3effbf9378707ff19.png" title="Then Accept terms" width="960"/>
+                <img src="cb85fa6527f5018dca3f7fff939d4fd3.png" title="And Enter ecard details and validate &quot;TESTLKR0000131&quot; &quot;PRDECT&quot;" width="960"/>
+                <img src="365520eb95463f71a49eb3f78a390bc6.png" title="And Enter ecard details and validate &quot;TESTLKR0000131&quot; &quot;PRDECT&quot;" width="960"/>
+                <img src="365520eb95463f71a49eb3f78a390bc6.png" title="And Click on confirm button" width="960"/>
+                <img src="e32b3e6ed6cb3ba762f280986ce71acb.png" title="And Click on confirm button" width="960"/>
+                <img src="84c7eea8fe9c1f795e2c7a895d29e4a5.png" title="Then Validate the Auto Login &quot;Welcome! TEST VIKAS&quot;" width="960"/>
+                <img src="b7f5471f3f7fc0096a9bcb4a75c398db.png" title="Then Validate the Auto Login &quot;Welcome! TEST VIKAS&quot;: <span class='success-color'>SUCCESS</span>" width="960"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.2.2-rc.1</span>
+</div>
+</body>
+</html>

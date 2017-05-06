@@ -1,2 +1,5 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"GLL smoke test","Test case 09","SUCCESS","2017-04-20T13:26:21.142+05:30","0.0","236.74"
+"GLL smoke test","Test case 01, 02, 03, 04","SUCCESS","2017-05-05T16:15:43.493+05:30","0.0","132.46"
+"GLL smoke test","Test case 05","SUCCESS","2017-05-05T16:17:59.793+05:30","0.0","145.18"
+"GLL smoke test","Test case 07","SUCCESS","2017-05-05T16:22:47.075+05:30","0.0","82.77"
+"GLL smoke test","Test case 14","SUCCESS","2017-05-05T16:26:39.077+05:30","0.0","21.24"

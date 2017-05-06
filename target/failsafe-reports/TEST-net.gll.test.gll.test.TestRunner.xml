@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="net.gll.test.gll.test.TestRunner" time="6.843" tests="16" errors="0" skipped="0" failures="0">
+<testsuite name="net.gll.test.gll.test.TestRunner" time="24.723" tests="140" errors="10" skipped="17" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\bin"/>
@@ -27,7 +27,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="C:\Users\Osura Liyanage\workspace\GLL\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8347946055436479804.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\Osura Liyanage\workspace\GLL\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2313499834062281908.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Broadcom\Broadcom 802.11;;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Softwares\eclipse-jee-neon-R-win32-x86_64\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -62,20 +62,392 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="Given user direct to the site" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000135 | PRDECT |" time="0.001"/>
-  <testcase name="When user click on Login or Register button" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000135 | PRDECT |" time="0"/>
-  <testcase name="And user enter valid credentials &quot;GL617795&quot; &quot;testpw&quot;" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000135 | PRDECT |" time="0"/>
-  <testcase name="And remove Items from cart" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000135 | PRDECT |" time="0"/>
-  <testcase name="And user click on products tab" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000135 | PRDECT |" time="0"/>
-  <testcase name="And user click on products link" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000135 | PRDECT |" time="0"/>
-  <testcase name="And user add products to the cart" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000135 | PRDECT |" time="0"/>
-  <testcase name="And user click on shopping cart" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000135 | PRDECT |" time="0"/>
-  <testcase name="And user click on checkout button" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000135 | PRDECT |" time="0"/>
-  <testcase name="And select delivery option and click checkout &quot;Global Lifestyle Lanka Head Office&quot;" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000135 | PRDECT |" time="0"/>
-  <testcase name="And User distribute the BVs and click on countinue" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000135 | PRDECT |" time="0"/>
-  <testcase name="And Enter ecard details &quot;TESTLKR0000146&quot; &quot;PRDECT&quot;" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000135 | PRDECT |" time="0"/>
-  <testcase name="And Enter Ecard two &quot;TESTLKR0000135&quot; &quot;PRDECT&quot;" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000135 | PRDECT |" time="0"/>
-  <testcase name="And Click on confirm button2" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000135 | PRDECT |" time="0.001"/>
-  <testcase name="Then Validate the Auto Login &quot;Welcome! RUFA&quot;" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000135 | PRDECT |" time="0"/>
-  <testcase name="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000135 | PRDECT |" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000135 | PRDECT |" time="6.841"/>
+  <testcase name="Given user direct to the site" classname="| GL621185 | T@stpw120 | Welcome! THARA VIJI |" time="0.001"/>
+  <testcase name="When user click on Login or Register button" classname="| GL621185 | T@stpw120 | Welcome! THARA VIJI |" time="0"/>
+  <testcase name="And user enter a valid ID or email &quot;GL621185&quot;" classname="| GL621185 | T@stpw120 | Welcome! THARA VIJI |" time="0"/>
+  <testcase name="And user enter a password &quot;T@stpw120&quot;" classname="| GL621185 | T@stpw120 | Welcome! THARA VIJI |" time="0.001"/>
+  <testcase name="Then user click on login button" classname="| GL621185 | T@stpw120 | Welcome! THARA VIJI |" time="0"/>
+  <testcase name="Then Validate the Auto Login &quot;Welcome! THARA VIJI&quot;" classname="| GL621185 | T@stpw120 | Welcome! THARA VIJI |" time="0"/>
+  <testcase name="| GL621185 | T@stpw120 | Welcome! THARA VIJI |" classname="| GL621185 | T@stpw120 | Welcome! THARA VIJI |" time="6.51"/>
+  <testcase name="Given user direct to the site" classname="| GC020046 | T@stpw120 | Welcome! THARA RETAIL |" time="0"/>
+  <testcase name="When user click on Login or Register button" classname="| GC020046 | T@stpw120 | Welcome! THARA RETAIL |" time="0"/>
+  <testcase name="And user enter a valid ID or email &quot;GC020046&quot;" classname="| GC020046 | T@stpw120 | Welcome! THARA RETAIL |" time="0"/>
+  <testcase name="And user enter a password &quot;T@stpw120&quot;" classname="| GC020046 | T@stpw120 | Welcome! THARA RETAIL |" time="0"/>
+  <testcase name="Then user click on login button" classname="| GC020046 | T@stpw120 | Welcome! THARA RETAIL |" time="0"/>
+  <testcase name="Then Validate the Auto Login &quot;Welcome! THARA RETAIL&quot;" classname="| GC020046 | T@stpw120 | Welcome! THARA RETAIL |" time="0"/>
+  <testcase name="| GC020046 | T@stpw120 | Welcome! THARA RETAIL |" classname="| GC020046 | T@stpw120 | Welcome! THARA RETAIL |" time="8.336"/>
+  <testcase name="Given user direct to the site" classname="| GL621185 | Individual | Mr | test | vikas | 1988 | 05 | 12 | English | 94778186251 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000131 | PRDECT | Welcome! TEST VIKAS | osura@vikas.lk |" time="0"/>
+  <testcase name="When user click on Login or Register button" classname="| GL621185 | Individual | Mr | test | vikas | 1988 | 05 | 12 | English | 94778186251 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000131 | PRDECT | Welcome! TEST VIKAS | osura@vikas.lk |" time="0"/>
+  <testcase name="And user click on become a Bus Asso" classname="| GL621185 | Individual | Mr | test | vikas | 1988 | 05 | 12 | English | 94778186251 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000131 | PRDECT | Welcome! TEST VIKAS | osura@vikas.lk |" time="0.001"/>
+  <testcase name="And user select registration type &quot;Individual&quot;" classname="| GL621185 | Individual | Mr | test | vikas | 1988 | 05 | 12 | English | 94778186251 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000131 | PRDECT | Welcome! TEST VIKAS | osura@vikas.lk |" time="0"/>
+  <testcase name="And user enter referrer ir id &quot;GL621185&quot;" classname="| GL621185 | Individual | Mr | test | vikas | 1988 | 05 | 12 | English | 94778186251 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000131 | PRDECT | Welcome! TEST VIKAS | osura@vikas.lk |" time="0"/>
+  <testcase name="And user enter name &quot;Mr&quot; &quot;test&quot; &quot;vikas&quot;" classname="| GL621185 | Individual | Mr | test | vikas | 1988 | 05 | 12 | English | 94778186251 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000131 | PRDECT | Welcome! TEST VIKAS | osura@vikas.lk |" time="0"/>
+  <testcase name="And user select date of birth &quot;1988&quot; &quot;05&quot; &quot;12&quot;" classname="| GL621185 | Individual | Mr | test | vikas | 1988 | 05 | 12 | English | 94778186251 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000131 | PRDECT | Welcome! TEST VIKAS | osura@vikas.lk |" time="0"/>
+  <testcase name="And user select language &quot;English&quot;" classname="| GL621185 | Individual | Mr | test | vikas | 1988 | 05 | 12 | English | 94778186251 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000131 | PRDECT | Welcome! TEST VIKAS | osura@vikas.lk |" time="0"/>
+  <testcase name="And user enter mobile phone no &quot;94778186251&quot;" classname="| GL621185 | Individual | Mr | test | vikas | 1988 | 05 | 12 | English | 94778186251 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000131 | PRDECT | Welcome! TEST VIKAS | osura@vikas.lk |" time="0"/>
+  <testcase name="And user enter PWD &quot;Test@135&quot; &quot;Test@135&quot;" classname="| GL621185 | Individual | Mr | test | vikas | 1988 | 05 | 12 | English | 94778186251 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000131 | PRDECT | Welcome! TEST VIKAS | osura@vikas.lk |" time="0"/>
+  <testcase name="And user enter Address &quot;test&quot; &quot;test&quot; &quot;0000&quot;" classname="| GL621185 | Individual | Mr | test | vikas | 1988 | 05 | 12 | English | 94778186251 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000131 | PRDECT | Welcome! TEST VIKAS | osura@vikas.lk |" time="0"/>
+  <testcase name="And user enter bank details &quot;MBSL - Savings Bank&quot; &quot;Galle&quot; &quot;1596325874&quot; &quot;osura@vikas.lk&quot;" classname="| GL621185 | Individual | Mr | test | vikas | 1988 | 05 | 12 | English | 94778186251 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000131 | PRDECT | Welcome! TEST VIKAS | osura@vikas.lk |" time="0.001"/>
+  <testcase name="Then Accept terms" classname="| GL621185 | Individual | Mr | test | vikas | 1988 | 05 | 12 | English | 94778186251 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000131 | PRDECT | Welcome! TEST VIKAS | osura@vikas.lk |" time="0"/>
+  <testcase name="And Enter ecard details and validate &quot;TESTLKR0000131&quot; &quot;PRDECT&quot;" classname="| GL621185 | Individual | Mr | test | vikas | 1988 | 05 | 12 | English | 94778186251 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000131 | PRDECT | Welcome! TEST VIKAS | osura@vikas.lk |" time="0"/>
+  <testcase name="And Click on confirm button" classname="| GL621185 | Individual | Mr | test | vikas | 1988 | 05 | 12 | English | 94778186251 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000131 | PRDECT | Welcome! TEST VIKAS | osura@vikas.lk |" time="0"/>
+  <testcase name="Then Validate the Auto Login &quot;Welcome! TEST VIKAS&quot;" classname="| GL621185 | Individual | Mr | test | vikas | 1988 | 05 | 12 | English | 94778186251 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000131 | PRDECT | Welcome! TEST VIKAS | osura@vikas.lk |" time="0"/>
+  <testcase name="| GL621185 | Individual | Mr | test | vikas | 1988 | 05 | 12 | English | 94778186251 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000131 | PRDECT | Welcome! TEST VIKAS | osura@vikas.lk |" classname="| GL621185 | Individual | Mr | test | vikas | 1988 | 05 | 12 | English | 94778186251 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000131 | PRDECT | Welcome! TEST VIKAS | osura@vikas.lk |" time="3.412"/>
+  <testcase name="Given user direct to the site" classname="| GL621185 | Company | Test Company | test | test | English | 94775841725 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000132 | PRDECT | Welcome! TEST COMPANY | osura@vikas.lk |" time="0"/>
+  <testcase name="When user click on Login or Register button" classname="| GL621185 | Company | Test Company | test | test | English | 94775841725 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000132 | PRDECT | Welcome! TEST COMPANY | osura@vikas.lk |" time="0"/>
+  <testcase name="And user click on become a Bus Asso" classname="| GL621185 | Company | Test Company | test | test | English | 94775841725 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000132 | PRDECT | Welcome! TEST COMPANY | osura@vikas.lk |" time="0"/>
+  <testcase name="And user select registration type &quot;Company&quot;" classname="| GL621185 | Company | Test Company | test | test | English | 94775841725 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000132 | PRDECT | Welcome! TEST COMPANY | osura@vikas.lk |" time="0"/>
+  <testcase name="And user enter referrer ir id &quot;GL621185&quot;" classname="| GL621185 | Company | Test Company | test | test | English | 94775841725 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000132 | PRDECT | Welcome! TEST COMPANY | osura@vikas.lk |" time="0"/>
+  <testcase name="And user enter conpany details &quot;Test Company&quot; &quot;test&quot; &quot;test&quot;" classname="| GL621185 | Company | Test Company | test | test | English | 94775841725 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000132 | PRDECT | Welcome! TEST COMPANY | osura@vikas.lk |" time="0"/>
+  <testcase name="And user select language &quot;English&quot;" classname="| GL621185 | Company | Test Company | test | test | English | 94775841725 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000132 | PRDECT | Welcome! TEST COMPANY | osura@vikas.lk |" time="0"/>
+  <testcase name="And user enter mobile phone no &quot;94775841725&quot;" classname="| GL621185 | Company | Test Company | test | test | English | 94775841725 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000132 | PRDECT | Welcome! TEST COMPANY | osura@vikas.lk |" time="0"/>
+  <testcase name="And user enter PWD &quot;Test@135&quot; &quot;Test@135&quot;" classname="| GL621185 | Company | Test Company | test | test | English | 94775841725 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000132 | PRDECT | Welcome! TEST COMPANY | osura@vikas.lk |" time="0"/>
+  <testcase name="And user enter Address &quot;test&quot; &quot;test&quot; &quot;0000&quot;" classname="| GL621185 | Company | Test Company | test | test | English | 94775841725 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000132 | PRDECT | Welcome! TEST COMPANY | osura@vikas.lk |" time="0"/>
+  <testcase name="And user enter bank details &quot;MBSL - Savings Bank&quot; &quot;Galle&quot; &quot;1596325874&quot; &quot;osura@vikas.lk&quot;" classname="| GL621185 | Company | Test Company | test | test | English | 94775841725 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000132 | PRDECT | Welcome! TEST COMPANY | osura@vikas.lk |" time="0"/>
+  <testcase name="Then Accept terms" classname="| GL621185 | Company | Test Company | test | test | English | 94775841725 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000132 | PRDECT | Welcome! TEST COMPANY | osura@vikas.lk |" time="0"/>
+  <testcase name="And Enter ecard details and validate two &quot;TESTLKR0000132&quot; &quot;PRDECT&quot;" classname="| GL621185 | Company | Test Company | test | test | English | 94775841725 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000132 | PRDECT | Welcome! TEST COMPANY | osura@vikas.lk |" time="0"/>
+  <testcase name="And Click on confirm button" classname="| GL621185 | Company | Test Company | test | test | English | 94775841725 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000132 | PRDECT | Welcome! TEST COMPANY | osura@vikas.lk |" time="0"/>
+  <testcase name="Then Validate the Auto Login &quot;Welcome! TEST COMPANY&quot;" classname="| GL621185 | Company | Test Company | test | test | English | 94775841725 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000132 | PRDECT | Welcome! TEST COMPANY | osura@vikas.lk |" time="0.018">
+    <error message="Timed out after 5 seconds. Element not found&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;OsuraLiyanage&apos;, ip: &apos;192.168.1.13&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Timed out after 5 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:150)
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:102)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy22.click(Unknown Source)
+	at net.gll.pgobjects.gll.pgobjects.RegConfirmationPgObjects.clickCloseVO(RegConfirmationPgObjects.java:37)
+	at net.gll.test.gll.test.steps.Gllsteps.validate_the_Auto_Login(Gllsteps.java:219)
+	at ✽.Then Validate the Auto Login "Welcome! TEST COMPANY"(GLLProduction.feature:59)
+</error>
+  </testcase>
+  <testcase name="| GL621185 | Company | Test Company | test | test | English | 94775841725 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000132 | PRDECT | Welcome! TEST COMPANY | osura@vikas.lk |" classname="| GL621185 | Company | Test Company | test | test | English | 94775841725 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000132 | PRDECT | Welcome! TEST COMPANY | osura@vikas.lk |" time="0.052">
+    <error message="Timed out after 5 seconds. Element not found&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;OsuraLiyanage&apos;, ip: &apos;192.168.1.13&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Timed out after 5 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:150)
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:102)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy22.click(Unknown Source)
+	at net.gll.pgobjects.gll.pgobjects.RegConfirmationPgObjects.clickCloseVO(RegConfirmationPgObjects.java:37)
+	at net.gll.test.gll.test.steps.Gllsteps.validate_the_Auto_Login(Gllsteps.java:219)
+	at ✽.Then Validate the Auto Login "Welcome! TEST COMPANY"(GLLProduction.feature:59)
+</error>
+  </testcase>
+  <testcase name="Given user direct to the site" classname="| GL621185 | Mr | test | vikasRC | 1988 | 05 | 12 | English | 94775877588 | Test@135 | Test@135 | test | test | 0000 | Welcome! TEST VIKASRC | osura@vikas.lk |" time="0"/>
+  <testcase name="When user click on Login or Register button" classname="| GL621185 | Mr | test | vikasRC | 1988 | 05 | 12 | English | 94775877588 | Test@135 | Test@135 | test | test | 0000 | Welcome! TEST VIKASRC | osura@vikas.lk |" time="0"/>
+  <testcase name="And user click on become a Retail Customer" classname="| GL621185 | Mr | test | vikasRC | 1988 | 05 | 12 | English | 94775877588 | Test@135 | Test@135 | test | test | 0000 | Welcome! TEST VIKASRC | osura@vikas.lk |" time="0"/>
+  <testcase name="And user enter referrer ir id &quot;GL621185&quot;" classname="| GL621185 | Mr | test | vikasRC | 1988 | 05 | 12 | English | 94775877588 | Test@135 | Test@135 | test | test | 0000 | Welcome! TEST VIKASRC | osura@vikas.lk |" time="0"/>
+  <testcase name="And user enter name &quot;Mr&quot; &quot;test&quot; &quot;vikasRC&quot;" classname="| GL621185 | Mr | test | vikasRC | 1988 | 05 | 12 | English | 94775877588 | Test@135 | Test@135 | test | test | 0000 | Welcome! TEST VIKASRC | osura@vikas.lk |" time="0"/>
+  <testcase name="And user select date of birth &quot;1988&quot; &quot;05&quot; &quot;12&quot;" classname="| GL621185 | Mr | test | vikasRC | 1988 | 05 | 12 | English | 94775877588 | Test@135 | Test@135 | test | test | 0000 | Welcome! TEST VIKASRC | osura@vikas.lk |" time="0"/>
+  <testcase name="And enter email &quot;osura@vikas.lk&quot;" classname="| GL621185 | Mr | test | vikasRC | 1988 | 05 | 12 | English | 94775877588 | Test@135 | Test@135 | test | test | 0000 | Welcome! TEST VIKASRC | osura@vikas.lk |" time="0"/>
+  <testcase name="And user select language &quot;English&quot;" classname="| GL621185 | Mr | test | vikasRC | 1988 | 05 | 12 | English | 94775877588 | Test@135 | Test@135 | test | test | 0000 | Welcome! TEST VIKASRC | osura@vikas.lk |" time="0"/>
+  <testcase name="And user enter mobile phone no &quot;94775877588&quot;" classname="| GL621185 | Mr | test | vikasRC | 1988 | 05 | 12 | English | 94775877588 | Test@135 | Test@135 | test | test | 0000 | Welcome! TEST VIKASRC | osura@vikas.lk |" time="0"/>
+  <testcase name="And user enter PWD &quot;Test@135&quot; &quot;Test@135&quot;" classname="| GL621185 | Mr | test | vikasRC | 1988 | 05 | 12 | English | 94775877588 | Test@135 | Test@135 | test | test | 0000 | Welcome! TEST VIKASRC | osura@vikas.lk |" time="0"/>
+  <testcase name="And user enter Address &quot;test&quot; &quot;test&quot; &quot;0000&quot;" classname="| GL621185 | Mr | test | vikasRC | 1988 | 05 | 12 | English | 94775877588 | Test@135 | Test@135 | test | test | 0000 | Welcome! TEST VIKASRC | osura@vikas.lk |" time="0"/>
+  <testcase name="And click continue btn" classname="| GL621185 | Mr | test | vikasRC | 1988 | 05 | 12 | English | 94775877588 | Test@135 | Test@135 | test | test | 0000 | Welcome! TEST VIKASRC | osura@vikas.lk |" time="0"/>
+  <testcase name="Then Accept terms" classname="| GL621185 | Mr | test | vikasRC | 1988 | 05 | 12 | English | 94775877588 | Test@135 | Test@135 | test | test | 0000 | Welcome! TEST VIKASRC | osura@vikas.lk |" time="0"/>
+  <testcase name="Then Validate the Auto Login &quot;Welcome! TEST VIKASRC&quot;" classname="| GL621185 | Mr | test | vikasRC | 1988 | 05 | 12 | English | 94775877588 | Test@135 | Test@135 | test | test | 0000 | Welcome! TEST VIKASRC | osura@vikas.lk |" time="0"/>
+  <testcase name="| GL621185 | Mr | test | vikasRC | 1988 | 05 | 12 | English | 94775877588 | Test@135 | Test@135 | test | test | 0000 | Welcome! TEST VIKASRC | osura@vikas.lk |" classname="| GL621185 | Mr | test | vikasRC | 1988 | 05 | 12 | English | 94775877588 | Test@135 | Test@135 | test | test | 0000 | Welcome! TEST VIKASRC | osura@vikas.lk |" time="1.702"/>
+  <testcase name="Given user direct to the site" classname="| GL621185 |" time="0"/>
+  <testcase name="When user click on Login or Register button" classname="| GL621185 |" time="0"/>
+  <testcase name="And user click on forgot pwd" classname="| GL621185 |" time="0"/>
+  <testcase name="And user enter customer IR ID &quot;GL621185&quot;" classname="| GL621185 |" time="0"/>
+  <testcase name="And click on submit button" classname="| GL621185 |" time="0"/>
+  <testcase name="Then Click on countinue button" classname="| GL621185 |" time="0"/>
+  <testcase name="And Click on Ok button on popup" classname="| GL621185 |" time="0"/>
+  <testcase name="| GL621185 |" classname="| GL621185 |" time="2.373"/>
+  <testcase name="Given user direct to the site" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000134 | PRDECT | Welcome! RUFA | TESTLKR0000133 | PRDECT |" time="0"/>
+  <testcase name="When user click on Login or Register button" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000134 | PRDECT | Welcome! RUFA | TESTLKR0000133 | PRDECT |" time="0"/>
+  <testcase name="And user enter valid credentials &quot;GL617795&quot; &quot;testpw&quot;" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000134 | PRDECT | Welcome! RUFA | TESTLKR0000133 | PRDECT |" time="0"/>
+  <testcase name="And remove Items from cart" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000134 | PRDECT | Welcome! RUFA | TESTLKR0000133 | PRDECT |" time="0"/>
+  <testcase name="And user click on products tab" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000134 | PRDECT | Welcome! RUFA | TESTLKR0000133 | PRDECT |" time="0"/>
+  <testcase name="And user click on products link" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000134 | PRDECT | Welcome! RUFA | TESTLKR0000133 | PRDECT |" time="0"/>
+  <testcase name="And user add products to the cart" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000134 | PRDECT | Welcome! RUFA | TESTLKR0000133 | PRDECT |" time="0"/>
+  <testcase name="And user click on shopping cart" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000134 | PRDECT | Welcome! RUFA | TESTLKR0000133 | PRDECT |" time="0"/>
+  <testcase name="And user click on checkout button" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000134 | PRDECT | Welcome! RUFA | TESTLKR0000133 | PRDECT |" time="0"/>
+  <testcase name="And select delivery option and click checkout &quot;Global Lifestyle Lanka Head Office&quot;" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000134 | PRDECT | Welcome! RUFA | TESTLKR0000133 | PRDECT |" time="0.002">
+    <error message="Timed out after 5 seconds. Element not found&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;OsuraLiyanage&apos;, ip: &apos;192.168.1.13&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: Timed out after 5 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:150)
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:102)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy22.getTagName(Unknown Source)
+	at org.openqa.selenium.support.ui.Select.<init>(Select.java:44)
+	at net.gll.pgobjects.gll.pgobjects.CheckOutPgObjects.selectDeliveryOption2(CheckOutPgObjects.java:61)
+	at net.gll.test.gll.test.steps.Gllsteps.select_delivery_option_and_click_checkout(Gllsteps.java:318)
+	at ✽.And select delivery option and click checkout "Global Lifestyle Lanka Head Office"(GLLProduction.feature:111)
+]]></error>
+  </testcase>
+  <testcase name="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000134 | PRDECT | Welcome! RUFA | TESTLKR0000133 | PRDECT |" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000134 | PRDECT | Welcome! RUFA | TESTLKR0000133 | PRDECT |" time="0.003">
+    <error message="Timed out after 5 seconds. Element not found&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;OsuraLiyanage&apos;, ip: &apos;192.168.1.13&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: Timed out after 5 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:150)
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:102)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy22.getTagName(Unknown Source)
+	at org.openqa.selenium.support.ui.Select.<init>(Select.java:44)
+	at net.gll.pgobjects.gll.pgobjects.CheckOutPgObjects.selectDeliveryOption2(CheckOutPgObjects.java:61)
+	at net.gll.test.gll.test.steps.Gllsteps.select_delivery_option_and_click_checkout(Gllsteps.java:318)
+	at ✽.And select delivery option and click checkout "Global Lifestyle Lanka Head Office"(GLLProduction.feature:111)
+]]></error>
+  </testcase>
+  <testcase name="And User distribute the BVs and click on countinue" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000134 | PRDECT | Welcome! RUFA | TESTLKR0000133 | PRDECT |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Enter ecard details &quot;TESTLKR0000134&quot; &quot;PRDECT&quot;" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000134 | PRDECT | Welcome! RUFA | TESTLKR0000133 | PRDECT |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Enter Ecard two &quot;TESTLKR0000133&quot; &quot;PRDECT&quot;" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000134 | PRDECT | Welcome! RUFA | TESTLKR0000133 | PRDECT |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Click on confirm button2" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000134 | PRDECT | Welcome! RUFA | TESTLKR0000133 | PRDECT |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then Validate the Auto Login &quot;Welcome! RUFA&quot;" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000134 | PRDECT | Welcome! RUFA | TESTLKR0000133 | PRDECT |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given user direct to the site" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000139 | PRDECT |" time="0"/>
+  <testcase name="When user click on Login or Register button" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000139 | PRDECT |" time="0"/>
+  <testcase name="And user enter valid credentials &quot;GL617795&quot; &quot;testpw&quot;" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000139 | PRDECT |" time="0"/>
+  <testcase name="And remove Items from cart" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000139 | PRDECT |" time="0"/>
+  <testcase name="And user click on products tab" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000139 | PRDECT |" time="0.003">
+    <error message="Element is not clickable at point (555.4833374023438, 62). Other element would receive the click: &lt;div class=&quot;modal loading&quot; data-selector=&quot;loading&quot; style=&quot;display: block;&quot;&gt;&lt;/div&gt;&#10;Command duration or timeout: 71 milliseconds&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;OsuraLiyanage&apos;, ip: &apos;192.168.1.13&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 217d484e-fd76-4c83-a5f7-ffdde204836d" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: Element is not clickable at point (555.4833374023438, 62). Other element would receive the click: <div class="modal loading" data-selector="loading" style="display: block;"></div>
+Command duration or timeout: 71 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 217d484e-fd76-4c83-a5f7-ffdde204836d
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at sun.reflect.GeneratedMethodAccessor40.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy22.click(Unknown Source)
+	at net.gll.pgobjects.gll.pgobjects.HomePgObjects.clickProductsTab(HomePgObjects.java:31)
+	at net.gll.test.gll.test.steps.Gllsteps.user_click_on_products_tab(Gllsteps.java:279)
+	at ✽.And user click on products tab(GLLProduction.feature:129)
+]]></error>
+  </testcase>
+  <testcase name="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000139 | PRDECT |" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000139 | PRDECT |" time="0.003">
+    <error message="Element is not clickable at point (555.4833374023438, 62). Other element would receive the click: &lt;div class=&quot;modal loading&quot; data-selector=&quot;loading&quot; style=&quot;display: block;&quot;&gt;&lt;/div&gt;&#10;Command duration or timeout: 71 milliseconds&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;OsuraLiyanage&apos;, ip: &apos;192.168.1.13&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 217d484e-fd76-4c83-a5f7-ffdde204836d" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: Element is not clickable at point (555.4833374023438, 62). Other element would receive the click: <div class="modal loading" data-selector="loading" style="display: block;"></div>
+Command duration or timeout: 71 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 217d484e-fd76-4c83-a5f7-ffdde204836d
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at sun.reflect.GeneratedMethodAccessor40.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy22.click(Unknown Source)
+	at net.gll.pgobjects.gll.pgobjects.HomePgObjects.clickProductsTab(HomePgObjects.java:31)
+	at net.gll.test.gll.test.steps.Gllsteps.user_click_on_products_tab(Gllsteps.java:279)
+	at ✽.And user click on products tab(GLLProduction.feature:129)
+]]></error>
+  </testcase>
+  <testcase name="And user click on products link" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000139 | PRDECT |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And user add products to the cart" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000139 | PRDECT |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And user click on shopping cart" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000139 | PRDECT |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And user click on checkout button" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000139 | PRDECT |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And select delivery option and click checkout &quot;Global Lifestyle Lanka Head Office&quot;" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000139 | PRDECT |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User distribute the BVs and click on countinue" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000139 | PRDECT |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Enter ecard details &quot;TESTLKR0000146&quot; &quot;PRDECT&quot;" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000139 | PRDECT |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Enter Ecard two &quot;TESTLKR0000139&quot; &quot;PRDECT&quot;" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000139 | PRDECT |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Click on confirm button2" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000139 | PRDECT |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then Validate the Auto Login &quot;Welcome! RUFA&quot;" classname="| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000139 | PRDECT |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given user direct to the site" classname="| GL617795 |" time="0"/>
+  <testcase name="When user click on Login or Register button" classname="| GL617795 |" time="0"/>
+  <testcase name="And user click on forgot pwd" classname="| GL617795 |" time="0"/>
+  <testcase name="And user enter customer IR ID &quot;GL617795&quot;" classname="| GL617795 |" time="0"/>
+  <testcase name="And click on submit button" classname="| GL617795 |" time="0"/>
+  <testcase name="Then Click on countinue button" classname="| GL617795 |" time="0"/>
+  <testcase name="And Click on Ok button on popup" classname="| GL617795 |" time="0"/>
+  <testcase name="| GL617795 |" classname="| GL617795 |" time="2.296"/>
+  <testcase name="Given user direct to the site" classname="| GL617795 | Individual | Mr | test | vikass | 1988 | 06 | 12 | English | 94763557189 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000135 | PRDECT | Welcome! TEST VIKASS | osura@vikas.lk | Global Lifestyle Lanka Head Office | TESTLKR0000136 | PRDECT |" time="0"/>
+  <testcase name="And user click on products tab" classname="| GL617795 | Individual | Mr | test | vikass | 1988 | 06 | 12 | English | 94763557189 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000135 | PRDECT | Welcome! TEST VIKASS | osura@vikas.lk | Global Lifestyle Lanka Head Office | TESTLKR0000136 | PRDECT |" time="0"/>
+  <testcase name="And user click on products link" classname="| GL617795 | Individual | Mr | test | vikass | 1988 | 06 | 12 | English | 94763557189 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000135 | PRDECT | Welcome! TEST VIKASS | osura@vikas.lk | Global Lifestyle Lanka Head Office | TESTLKR0000136 | PRDECT |" time="0"/>
+  <testcase name="And user add products to the cart" classname="| GL617795 | Individual | Mr | test | vikass | 1988 | 06 | 12 | English | 94763557189 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000135 | PRDECT | Welcome! TEST VIKASS | osura@vikas.lk | Global Lifestyle Lanka Head Office | TESTLKR0000136 | PRDECT |" time="0"/>
+  <testcase name="And user click on shopping cart" classname="| GL617795 | Individual | Mr | test | vikass | 1988 | 06 | 12 | English | 94763557189 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000135 | PRDECT | Welcome! TEST VIKASS | osura@vikas.lk | Global Lifestyle Lanka Head Office | TESTLKR0000136 | PRDECT |" time="0"/>
+  <testcase name="And user click on checkout button" classname="| GL617795 | Individual | Mr | test | vikass | 1988 | 06 | 12 | English | 94763557189 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000135 | PRDECT | Welcome! TEST VIKASS | osura@vikas.lk | Global Lifestyle Lanka Head Office | TESTLKR0000136 | PRDECT |" time="0.001"/>
+  <testcase name="And user click on become a Bus Asso" classname="| GL617795 | Individual | Mr | test | vikass | 1988 | 06 | 12 | English | 94763557189 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000135 | PRDECT | Welcome! TEST VIKASS | osura@vikas.lk | Global Lifestyle Lanka Head Office | TESTLKR0000136 | PRDECT |" time="0"/>
+  <testcase name="And user select registration type &quot;Individual&quot;" classname="| GL617795 | Individual | Mr | test | vikass | 1988 | 06 | 12 | English | 94763557189 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000135 | PRDECT | Welcome! TEST VIKASS | osura@vikas.lk | Global Lifestyle Lanka Head Office | TESTLKR0000136 | PRDECT |" time="0"/>
+  <testcase name="And user enter referrer ir id &quot;GL617795&quot;" classname="| GL617795 | Individual | Mr | test | vikass | 1988 | 06 | 12 | English | 94763557189 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000135 | PRDECT | Welcome! TEST VIKASS | osura@vikas.lk | Global Lifestyle Lanka Head Office | TESTLKR0000136 | PRDECT |" time="0"/>
+  <testcase name="And user enter name &quot;Mr&quot; &quot;test&quot; &quot;vikass&quot;" classname="| GL617795 | Individual | Mr | test | vikass | 1988 | 06 | 12 | English | 94763557189 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000135 | PRDECT | Welcome! TEST VIKASS | osura@vikas.lk | Global Lifestyle Lanka Head Office | TESTLKR0000136 | PRDECT |" time="0"/>
+  <testcase name="And user select date of birth &quot;1988&quot; &quot;06&quot; &quot;12&quot;" classname="| GL617795 | Individual | Mr | test | vikass | 1988 | 06 | 12 | English | 94763557189 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000135 | PRDECT | Welcome! TEST VIKASS | osura@vikas.lk | Global Lifestyle Lanka Head Office | TESTLKR0000136 | PRDECT |" time="0"/>
+  <testcase name="And user select language &quot;English&quot;" classname="| GL617795 | Individual | Mr | test | vikass | 1988 | 06 | 12 | English | 94763557189 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000135 | PRDECT | Welcome! TEST VIKASS | osura@vikas.lk | Global Lifestyle Lanka Head Office | TESTLKR0000136 | PRDECT |" time="0"/>
+  <testcase name="And user enter mobile phone no &quot;94763557189&quot;" classname="| GL617795 | Individual | Mr | test | vikass | 1988 | 06 | 12 | English | 94763557189 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000135 | PRDECT | Welcome! TEST VIKASS | osura@vikas.lk | Global Lifestyle Lanka Head Office | TESTLKR0000136 | PRDECT |" time="0"/>
+  <testcase name="And user enter PWD &quot;Test@135&quot; &quot;Test@135&quot;" classname="| GL617795 | Individual | Mr | test | vikass | 1988 | 06 | 12 | English | 94763557189 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000135 | PRDECT | Welcome! TEST VIKASS | osura@vikas.lk | Global Lifestyle Lanka Head Office | TESTLKR0000136 | PRDECT |" time="0"/>
+  <testcase name="And user enter Address &quot;test&quot; &quot;test&quot; &quot;0000&quot;" classname="| GL617795 | Individual | Mr | test | vikass | 1988 | 06 | 12 | English | 94763557189 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000135 | PRDECT | Welcome! TEST VIKASS | osura@vikas.lk | Global Lifestyle Lanka Head Office | TESTLKR0000136 | PRDECT |" time="0"/>
+  <testcase name="And user enter bank details &quot;MBSL - Savings Bank&quot; &quot;Galle&quot; &quot;1596325874&quot; &quot;osura@vikas.lk&quot;" classname="| GL617795 | Individual | Mr | test | vikass | 1988 | 06 | 12 | English | 94763557189 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000135 | PRDECT | Welcome! TEST VIKASS | osura@vikas.lk | Global Lifestyle Lanka Head Office | TESTLKR0000136 | PRDECT |" time="0.001"/>
+  <testcase name="Then Accept terms" classname="| GL617795 | Individual | Mr | test | vikass | 1988 | 06 | 12 | English | 94763557189 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000135 | PRDECT | Welcome! TEST VIKASS | osura@vikas.lk | Global Lifestyle Lanka Head Office | TESTLKR0000136 | PRDECT |" time="0"/>
+  <testcase name="And select delivery option kit &quot;Global Lifestyle Lanka Head Office&quot;" classname="| GL617795 | Individual | Mr | test | vikass | 1988 | 06 | 12 | English | 94763557189 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000135 | PRDECT | Welcome! TEST VIKASS | osura@vikas.lk | Global Lifestyle Lanka Head Office | TESTLKR0000136 | PRDECT |" time="0"/>
+  <testcase name="And User distribute the BVs and click on countinue" classname="| GL617795 | Individual | Mr | test | vikass | 1988 | 06 | 12 | English | 94763557189 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000135 | PRDECT | Welcome! TEST VIKASS | osura@vikas.lk | Global Lifestyle Lanka Head Office | TESTLKR0000136 | PRDECT |" time="0.001"/>
+  <testcase name="And Enter ecard details &quot;TESTLKR0000135&quot; &quot;PRDECT&quot;" classname="| GL617795 | Individual | Mr | test | vikass | 1988 | 06 | 12 | English | 94763557189 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000135 | PRDECT | Welcome! TEST VIKASS | osura@vikas.lk | Global Lifestyle Lanka Head Office | TESTLKR0000136 | PRDECT |" time="0"/>
+  <testcase name="And Enter Ecard two &quot;TESTLKR0000136&quot; &quot;PRDECT&quot;" classname="| GL617795 | Individual | Mr | test | vikass | 1988 | 06 | 12 | English | 94763557189 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000135 | PRDECT | Welcome! TEST VIKASS | osura@vikas.lk | Global Lifestyle Lanka Head Office | TESTLKR0000136 | PRDECT |" time="0"/>
+  <testcase name="And Click on confirm button2" classname="| GL617795 | Individual | Mr | test | vikass | 1988 | 06 | 12 | English | 94763557189 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000135 | PRDECT | Welcome! TEST VIKASS | osura@vikas.lk | Global Lifestyle Lanka Head Office | TESTLKR0000136 | PRDECT |" time="0.001">
+    <error message="Element is not clickable at point (1136.550048828125, 496.04998779296875). Other element would receive the click: &lt;div class=&quot;modal loading&quot; data-selector=&quot;loading&quot; style=&quot;display: block;&quot;&gt;&lt;/div&gt;&#10;Command duration or timeout: 76 milliseconds&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;OsuraLiyanage&apos;, ip: &apos;192.168.1.13&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 4f4f0e10-c8d4-40f8-8710-952a6bb051bf" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: Element is not clickable at point (1136.550048828125, 496.04998779296875). Other element would receive the click: <div class="modal loading" data-selector="loading" style="display: block;"></div>
+Command duration or timeout: 76 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4f4f0e10-c8d4-40f8-8710-952a6bb051bf
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at sun.reflect.GeneratedMethodAccessor40.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy22.click(Unknown Source)
+	at net.gll.pgobjects.gll.pgobjects.RegistrationPgObjects.clickConfirmBtn2(RegistrationPgObjects.java:259)
+	at net.gll.test.gll.test.steps.Gllsteps.click_on_confirm_button(Gllsteps.java:397)
+	at ✽.And Click on confirm button2(GLLProduction.feature:222)
+]]></error>
+  </testcase>
+  <testcase name="| GL617795 | Individual | Mr | test | vikass | 1988 | 06 | 12 | English | 94763557189 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000135 | PRDECT | Welcome! TEST VIKASS | osura@vikas.lk | Global Lifestyle Lanka Head Office | TESTLKR0000136 | PRDECT |" classname="| GL617795 | Individual | Mr | test | vikass | 1988 | 06 | 12 | English | 94763557189 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000135 | PRDECT | Welcome! TEST VIKASS | osura@vikas.lk | Global Lifestyle Lanka Head Office | TESTLKR0000136 | PRDECT |" time="0.002">
+    <error message="Element is not clickable at point (1136.550048828125, 496.04998779296875). Other element would receive the click: &lt;div class=&quot;modal loading&quot; data-selector=&quot;loading&quot; style=&quot;display: block;&quot;&gt;&lt;/div&gt;&#10;Command duration or timeout: 76 milliseconds&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;OsuraLiyanage&apos;, ip: &apos;192.168.1.13&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 4f4f0e10-c8d4-40f8-8710-952a6bb051bf" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: Element is not clickable at point (1136.550048828125, 496.04998779296875). Other element would receive the click: <div class="modal loading" data-selector="loading" style="display: block;"></div>
+Command duration or timeout: 76 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4f4f0e10-c8d4-40f8-8710-952a6bb051bf
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at sun.reflect.GeneratedMethodAccessor40.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy22.click(Unknown Source)
+	at net.gll.pgobjects.gll.pgobjects.RegistrationPgObjects.clickConfirmBtn2(RegistrationPgObjects.java:259)
+	at net.gll.test.gll.test.steps.Gllsteps.click_on_confirm_button(Gllsteps.java:397)
+	at ✽.And Click on confirm button2(GLLProduction.feature:222)
+]]></error>
+  </testcase>
+  <testcase name="Then Validate the Auto Login &quot;Welcome! TEST VIKASS&quot;" classname="| GL617795 | Individual | Mr | test | vikass | 1988 | 06 | 12 | English | 94763557189 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000135 | PRDECT | Welcome! TEST VIKASS | osura@vikas.lk | Global Lifestyle Lanka Head Office | TESTLKR0000136 | PRDECT |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given user direct to the site" classname="| GL617795 | testpw | https://portal.glifestyle.net/VO2GLL/#/DashBoard |" time="0"/>
+  <testcase name="When user click on Login or Register button" classname="| GL617795 | testpw | https://portal.glifestyle.net/VO2GLL/#/DashBoard |" time="0"/>
+  <testcase name="And user enter valid credentials &quot;GL617795&quot; &quot;testpw&quot;" classname="| GL617795 | testpw | https://portal.glifestyle.net/VO2GLL/#/DashBoard |" time="0"/>
+  <testcase name="Then click on virtual office link" classname="| GL617795 | testpw | https://portal.glifestyle.net/VO2GLL/#/DashBoard |" time="0.001">
+    <error message="Element is not clickable at point (1088.4000244140625, 13). Other element would receive the click: &lt;div class=&quot;modal loading&quot; data-selector=&quot;loading&quot; style=&quot;display: block;&quot;&gt;&lt;/div&gt;&#10;Command duration or timeout: 67 milliseconds&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;OsuraLiyanage&apos;, ip: &apos;192.168.1.13&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 5aa0086d-1891-4a5d-bd85-3808b6f853e6" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: Element is not clickable at point (1088.4000244140625, 13). Other element would receive the click: <div class="modal loading" data-selector="loading" style="display: block;"></div>
+Command duration or timeout: 67 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 5aa0086d-1891-4a5d-bd85-3808b6f853e6
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at sun.reflect.GeneratedMethodAccessor40.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy22.click(Unknown Source)
+	at net.gll.pgobjects.gll.pgobjects.HomePgObjects.clickVirtualOffice(HomePgObjects.java:28)
+	at net.gll.test.gll.test.steps.Gllsteps.click_on_virtual_office_link(Gllsteps.java:453)
+	at ✽.Then click on virtual office link(GLLProduction.feature:236)
+]]></error>
+  </testcase>
+  <testcase name="| GL617795 | testpw | https://portal.glifestyle.net/VO2GLL/#/DashBoard |" classname="| GL617795 | testpw | https://portal.glifestyle.net/VO2GLL/#/DashBoard |" time="0.002">
+    <error message="Element is not clickable at point (1088.4000244140625, 13). Other element would receive the click: &lt;div class=&quot;modal loading&quot; data-selector=&quot;loading&quot; style=&quot;display: block;&quot;&gt;&lt;/div&gt;&#10;Command duration or timeout: 67 milliseconds&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;OsuraLiyanage&apos;, ip: &apos;192.168.1.13&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 5aa0086d-1891-4a5d-bd85-3808b6f853e6" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: Element is not clickable at point (1088.4000244140625, 13). Other element would receive the click: <div class="modal loading" data-selector="loading" style="display: block;"></div>
+Command duration or timeout: 67 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 5aa0086d-1891-4a5d-bd85-3808b6f853e6
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at sun.reflect.GeneratedMethodAccessor40.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy22.click(Unknown Source)
+	at net.gll.pgobjects.gll.pgobjects.HomePgObjects.clickVirtualOffice(HomePgObjects.java:28)
+	at net.gll.test.gll.test.steps.Gllsteps.click_on_virtual_office_link(Gllsteps.java:453)
+	at ✽.Then click on virtual office link(GLLProduction.feature:236)
+]]></error>
+  </testcase>
+  <testcase name="And user direct to the VO page &quot;https://portal.glifestyle.net/VO2GLL/#/DashBoard&quot;" classname="| GL617795 | testpw | https://portal.glifestyle.net/VO2GLL/#/DashBoard |" time="0">
+    <skipped/>
+  </testcase>
 </testsuite>

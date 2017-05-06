@@ -1,4 +1,218 @@
 -------------------------------------------------------------------------------
 Test set: net.gll.test.gll.test.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 243.323 sec - in net.gll.test.gll.test.TestRunner
+Tests run: 140, Failures: 0, Errors: 10, Skipped: 17, Time elapsed: 917.328 sec <<< FAILURE! - in net.gll.test.gll.test.TestRunner
+Then Validate the Auto Login "Welcome! TEST COMPANY"(| GL621185 | Company | Test Company | test | test | English | 94775841725 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000132 | PRDECT | Welcome! TEST COMPANY | osura@vikas.lk |)  Time elapsed: 0.018 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Timed out after 5 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:150)
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:102)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy22.click(Unknown Source)
+	at net.gll.pgobjects.gll.pgobjects.RegConfirmationPgObjects.clickCloseVO(RegConfirmationPgObjects.java:37)
+	at net.gll.test.gll.test.steps.Gllsteps.validate_the_Auto_Login(Gllsteps.java:219)
+	at ?.Then Validate the Auto Login "Welcome! TEST COMPANY"(GLLProduction.feature:59)
+
+| GL621185 | Company | Test Company | test | test | English | 94775841725 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000132 | PRDECT | Welcome! TEST COMPANY | osura@vikas.lk |  Time elapsed: 0.052 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Timed out after 5 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:150)
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:102)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy22.click(Unknown Source)
+	at net.gll.pgobjects.gll.pgobjects.RegConfirmationPgObjects.clickCloseVO(RegConfirmationPgObjects.java:37)
+	at net.gll.test.gll.test.steps.Gllsteps.validate_the_Auto_Login(Gllsteps.java:219)
+	at ?.Then Validate the Auto Login "Welcome! TEST COMPANY"(GLLProduction.feature:59)
+
+And select delivery option and click checkout "Global Lifestyle Lanka Head Office"(| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000134 | PRDECT | Welcome! RUFA | TESTLKR0000133 | PRDECT |)  Time elapsed: 0.002 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Timed out after 5 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:150)
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:102)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy22.getTagName(Unknown Source)
+	at org.openqa.selenium.support.ui.Select.<init>(Select.java:44)
+	at net.gll.pgobjects.gll.pgobjects.CheckOutPgObjects.selectDeliveryOption2(CheckOutPgObjects.java:61)
+	at net.gll.test.gll.test.steps.Gllsteps.select_delivery_option_and_click_checkout(Gllsteps.java:318)
+	at ?.And select delivery option and click checkout "Global Lifestyle Lanka Head Office"(GLLProduction.feature:111)
+
+| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000134 | PRDECT | Welcome! RUFA | TESTLKR0000133 | PRDECT |  Time elapsed: 0.003 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Timed out after 5 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:150)
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:102)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy22.getTagName(Unknown Source)
+	at org.openqa.selenium.support.ui.Select.<init>(Select.java:44)
+	at net.gll.pgobjects.gll.pgobjects.CheckOutPgObjects.selectDeliveryOption2(CheckOutPgObjects.java:61)
+	at net.gll.test.gll.test.steps.Gllsteps.select_delivery_option_and_click_checkout(Gllsteps.java:318)
+	at ?.And select delivery option and click checkout "Global Lifestyle Lanka Head Office"(GLLProduction.feature:111)
+
+And user click on products tab(| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000139 | PRDECT |)  Time elapsed: 0.003 sec  <<< ERROR!
+org.openqa.selenium.WebDriverException: Element is not clickable at point (555.4833374023438, 62). Other element would receive the click: <div class="modal loading" data-selector="loading" style="display: block;"></div>
+Command duration or timeout: 71 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 217d484e-fd76-4c83-a5f7-ffdde204836d
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at sun.reflect.GeneratedMethodAccessor40.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy22.click(Unknown Source)
+	at net.gll.pgobjects.gll.pgobjects.HomePgObjects.clickProductsTab(HomePgObjects.java:31)
+	at net.gll.test.gll.test.steps.Gllsteps.user_click_on_products_tab(Gllsteps.java:279)
+	at ?.And user click on products tab(GLLProduction.feature:129)
+
+| GL617795 | testpw | Global Lifestyle Lanka Head Office | TESTLKR0000146 | PRDECT | Welcome! RUFA | TESTLKR0000139 | PRDECT |  Time elapsed: 0.003 sec  <<< ERROR!
+org.openqa.selenium.WebDriverException: Element is not clickable at point (555.4833374023438, 62). Other element would receive the click: <div class="modal loading" data-selector="loading" style="display: block;"></div>
+Command duration or timeout: 71 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 217d484e-fd76-4c83-a5f7-ffdde204836d
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at sun.reflect.GeneratedMethodAccessor40.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy22.click(Unknown Source)
+	at net.gll.pgobjects.gll.pgobjects.HomePgObjects.clickProductsTab(HomePgObjects.java:31)
+	at net.gll.test.gll.test.steps.Gllsteps.user_click_on_products_tab(Gllsteps.java:279)
+	at ?.And user click on products tab(GLLProduction.feature:129)
+
+And Click on confirm button2(| GL617795 | Individual | Mr | test | vikass | 1988 | 06 | 12 | English | 94763557189 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000135 | PRDECT | Welcome! TEST VIKASS | osura@vikas.lk | Global Lifestyle Lanka Head Office | TESTLKR0000136 | PRDECT |)  Time elapsed: 0.001 sec  <<< ERROR!
+org.openqa.selenium.WebDriverException: Element is not clickable at point (1136.550048828125, 496.04998779296875). Other element would receive the click: <div class="modal loading" data-selector="loading" style="display: block;"></div>
+Command duration or timeout: 76 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4f4f0e10-c8d4-40f8-8710-952a6bb051bf
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at sun.reflect.GeneratedMethodAccessor40.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy22.click(Unknown Source)
+	at net.gll.pgobjects.gll.pgobjects.RegistrationPgObjects.clickConfirmBtn2(RegistrationPgObjects.java:259)
+	at net.gll.test.gll.test.steps.Gllsteps.click_on_confirm_button(Gllsteps.java:397)
+	at ?.And Click on confirm button2(GLLProduction.feature:222)
+
+| GL617795 | Individual | Mr | test | vikass | 1988 | 06 | 12 | English | 94763557189 | Test@135 | Test@135 | test | test | 0000 | MBSL - Savings Bank | Galle | 1596325874 | TESTLKR0000135 | PRDECT | Welcome! TEST VIKASS | osura@vikas.lk | Global Lifestyle Lanka Head Office | TESTLKR0000136 | PRDECT |  Time elapsed: 0.002 sec  <<< ERROR!
+org.openqa.selenium.WebDriverException: Element is not clickable at point (1136.550048828125, 496.04998779296875). Other element would receive the click: <div class="modal loading" data-selector="loading" style="display: block;"></div>
+Command duration or timeout: 76 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4f4f0e10-c8d4-40f8-8710-952a6bb051bf
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at sun.reflect.GeneratedMethodAccessor40.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy22.click(Unknown Source)
+	at net.gll.pgobjects.gll.pgobjects.RegistrationPgObjects.clickConfirmBtn2(RegistrationPgObjects.java:259)
+	at net.gll.test.gll.test.steps.Gllsteps.click_on_confirm_button(Gllsteps.java:397)
+	at ?.And Click on confirm button2(GLLProduction.feature:222)
+
+Then click on virtual office link(| GL617795 | testpw | https://portal.glifestyle.net/VO2GLL/#/DashBoard |)  Time elapsed: 0.001 sec  <<< ERROR!
+org.openqa.selenium.WebDriverException: Element is not clickable at point (1088.4000244140625, 13). Other element would receive the click: <div class="modal loading" data-selector="loading" style="display: block;"></div>
+Command duration or timeout: 67 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 5aa0086d-1891-4a5d-bd85-3808b6f853e6
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at sun.reflect.GeneratedMethodAccessor40.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy22.click(Unknown Source)
+	at net.gll.pgobjects.gll.pgobjects.HomePgObjects.clickVirtualOffice(HomePgObjects.java:28)
+	at net.gll.test.gll.test.steps.Gllsteps.click_on_virtual_office_link(Gllsteps.java:453)
+	at ?.Then click on virtual office link(GLLProduction.feature:236)
+
+| GL617795 | testpw | https://portal.glifestyle.net/VO2GLL/#/DashBoard |  Time elapsed: 0.002 sec  <<< ERROR!
+org.openqa.selenium.WebDriverException: Element is not clickable at point (1088.4000244140625, 13). Other element would receive the click: <div class="modal loading" data-selector="loading" style="display: block;"></div>
+Command duration or timeout: 67 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 5aa0086d-1891-4a5d-bd85-3808b6f853e6
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at sun.reflect.GeneratedMethodAccessor40.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy22.click(Unknown Source)
+	at net.gll.pgobjects.gll.pgobjects.HomePgObjects.clickVirtualOffice(HomePgObjects.java:28)
+	at net.gll.test.gll.test.steps.Gllsteps.click_on_virtual_office_link(Gllsteps.java:453)
+	at ?.Then click on virtual office link(GLLProduction.feature:236)
+

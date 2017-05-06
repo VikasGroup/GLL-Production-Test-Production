@@ -484,5 +484,6 @@ public void click_on_confirm_cash_payment() throws Throwable {
 public void validate_Payment() throws Throwable {
 	 Thread.sleep(5000);
    Assert.assertEquals(checkoutConfirmationPgObjects.GetOrderDetails(), "ORDER DETAILS");
+   
 }
 }

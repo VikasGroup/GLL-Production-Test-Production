@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="5" failures="0" name="GLL smoke test" skipped="0" tests="11" time="892.43" timestamp="2017-05-125 04:15:43"><testcase name="Test case 01, 02, 03, 04"/><testcase name="Test case 05"/><testcase name="Test case 06"><error message="Timed out after 5 seconds. Element not found&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'&#10;System info: host: 'OsuraLiyanage', ip: '192.168.1.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'&#10;Driver info: driver.version: unknown&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'&#10;System info: host: 'OsuraLiyanage', ip: '192.168.1.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">Timed out after 5 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: unknown</error><system-err>Timed out after 5 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: unknown&#13;
+net.gll.pgobjects.gll.pgobjects.RegConfirmationPgObjects.clickCloseVO(RegConfirmationPgObjects.java:37)&#13;
+net.gll.test.gll.test.steps.Gllsteps.validate_the_Auto_Login(Gllsteps.java:219)&#13;
+✽.Then Validate the Auto Login "Welcome! TEST COMPANY"(GLLProduction.feature:59)&#13;
+</system-err></testcase><testcase name="Test case 07"/><testcase name="Test case 14"/><testcase name="Test case 08"><error message="Timed out after 5 seconds. Element not found&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'&#10;System info: host: 'OsuraLiyanage', ip: '192.168.1.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'&#10;Driver info: driver.version: unknown&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'&#10;System info: host: 'OsuraLiyanage', ip: '192.168.1.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">Timed out after 5 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: unknown</error><system-err>Timed out after 5 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: unknown&#13;
+net.gll.pgobjects.gll.pgobjects.CheckOutPgObjects.selectDeliveryOption2(CheckOutPgObjects.java:61)&#13;
+net.gll.test.gll.test.steps.Gllsteps.select_delivery_option_and_click_checkout(Gllsteps.java:318)&#13;
+✽.And select delivery option and click checkout "Global Lifestyle Lanka Head Office"(GLLProduction.feature:111)&#13;
+</system-err></testcase><testcase name="Test case 09"><error message="Element is not clickable at point (555.4833374023438, 62). Other element would receive the click: &lt;div class=&quot;modal loading&quot; data-selector=&quot;loading&quot; style=&quot;display: block;&quot;&gt;&lt;/div&gt;&#10;Command duration or timeout: 71 milliseconds&#10;Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'&#10;System info: host: 'OsuraLiyanage', ip: '192.168.1.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 217d484e-fd76-4c83-a5f7-ffdde204836d&#10;Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'&#10;System info: host: 'OsuraLiyanage', ip: '192.168.1.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.WebDriverException">Element is not clickable at point (555.4833374023438, 62). Other element would receive the click: &lt;div class="modal loading" data-selector="loading" style="display: block;"&gt;&lt;/div&gt;
+Command duration or timeout: 71 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 217d484e-fd76-4c83-a5f7-ffdde204836d
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: unknown</error><system-err>Element is not clickable at point (555.4833374023438, 62). Other element would receive the click: &lt;div class="modal loading" data-selector="loading" style="display: block;"&gt;&lt;/div&gt;
+Command duration or timeout: 71 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 217d484e-fd76-4c83-a5f7-ffdde204836d
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: unknown&#13;
+net.gll.pgobjects.gll.pgobjects.HomePgObjects.clickProductsTab(HomePgObjects.java:31)&#13;
+net.gll.test.gll.test.steps.Gllsteps.user_click_on_products_tab(Gllsteps.java:279)&#13;
+✽.And user click on products tab(GLLProduction.feature:129)&#13;
+</system-err></testcase><testcase name="Test case 14"/><testcase name="Test case 13"><error message="Element is not clickable at point (1136.550048828125, 496.04998779296875). Other element would receive the click: &lt;div class=&quot;modal loading&quot; data-selector=&quot;loading&quot; style=&quot;display: block;&quot;&gt;&lt;/div&gt;&#10;Command duration or timeout: 76 milliseconds&#10;Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'&#10;System info: host: 'OsuraLiyanage', ip: '192.168.1.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 4f4f0e10-c8d4-40f8-8710-952a6bb051bf&#10;Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'&#10;System info: host: 'OsuraLiyanage', ip: '192.168.1.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.WebDriverException">Element is not clickable at point (1136.550048828125, 496.04998779296875). Other element would receive the click: &lt;div class="modal loading" data-selector="loading" style="display: block;"&gt;&lt;/div&gt;
+Command duration or timeout: 76 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4f4f0e10-c8d4-40f8-8710-952a6bb051bf
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: unknown</error><system-err>Element is not clickable at point (1136.550048828125, 496.04998779296875). Other element would receive the click: &lt;div class="modal loading" data-selector="loading" style="display: block;"&gt;&lt;/div&gt;
+Command duration or timeout: 76 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4f4f0e10-c8d4-40f8-8710-952a6bb051bf
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: unknown&#13;
+net.gll.pgobjects.gll.pgobjects.RegistrationPgObjects.clickConfirmBtn2(RegistrationPgObjects.java:259)&#13;
+net.gll.test.gll.test.steps.Gllsteps.click_on_confirm_button(Gllsteps.java:397)&#13;
+✽.And Click on confirm button2(GLLProduction.feature:222)&#13;
+</system-err></testcase><testcase name="Test case 16"><error message="Element is not clickable at point (1088.4000244140625, 13). Other element would receive the click: &lt;div class=&quot;modal loading&quot; data-selector=&quot;loading&quot; style=&quot;display: block;&quot;&gt;&lt;/div&gt;&#10;Command duration or timeout: 67 milliseconds&#10;Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'&#10;System info: host: 'OsuraLiyanage', ip: '192.168.1.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 5aa0086d-1891-4a5d-bd85-3808b6f853e6&#10;Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'&#10;System info: host: 'OsuraLiyanage', ip: '192.168.1.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.WebDriverException">Element is not clickable at point (1088.4000244140625, 13). Other element would receive the click: &lt;div class="modal loading" data-selector="loading" style="display: block;"&gt;&lt;/div&gt;
+Command duration or timeout: 67 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 5aa0086d-1891-4a5d-bd85-3808b6f853e6
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: unknown</error><system-err>Element is not clickable at point (1088.4000244140625, 13). Other element would receive the click: &lt;div class="modal loading" data-selector="loading" style="display: block;"&gt;&lt;/div&gt;
+Command duration or timeout: 67 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 5aa0086d-1891-4a5d-bd85-3808b6f853e6
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'OsuraLiyanage', ip: '192.168.1.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: unknown&#13;
+net.gll.pgobjects.gll.pgobjects.HomePgObjects.clickVirtualOffice(HomePgObjects.java:28)&#13;
+net.gll.test.gll.test.steps.Gllsteps.click_on_virtual_office_link(Gllsteps.java:453)&#13;
+✽.Then click on virtual office link(GLLProduction.feature:236)&#13;
+</system-err></testcase></testsuite>

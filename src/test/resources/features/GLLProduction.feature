@@ -1,6 +1,6 @@
 Feature: GLL smoke test
 
-
+@RegProd
 Scenario Outline: Test case 01, 02, 03, 04
 Given user direct to the site
 When user click on Login or Register button
@@ -17,7 +17,7 @@ Examples:
    	
     
     
-
+@RegProd
 Scenario Outline: Test case 05
 Given user direct to the site
 When user click on Login or Register button
@@ -40,7 +40,7 @@ Examples:
     |IR_ID   |Reg_Type  |Title|FName|Lname|YEAR|Month|Date|Lang   |Mob_no     |PWD     |Re_PWD  |Address|City|PostCode|BankName           |BranchName|AccNo     |EcardNo       |PIN   |Autologin          |Email|
     |GL621185|Individual|Mr   |test |vikas|1988|05  |12  |English|94778186251|Test@135|Test@135|test   |test|0000    |MBSL - Savings Bank|Galle     |1596325874|TESTLKR0000131|PRDECT|Welcome! TEST VIKAS|osura@vikas.lk|
     
-
+@RegProd
 Scenario Outline: Test case 06
 Given user direct to the site
 When user click on Login or Register button
@@ -62,7 +62,7 @@ Examples:
     |IR_ID   |Reg_Type|ComName     |Desig|ContPer|Lang   |Mob_no     |PWD     |Re_PWD  |Address|City|PostCode|BankName           |BranchName|AccNo     |EcardNo       |PIN   |Autologin          |Email|
     |GL621185|Company |Test Company|test |test   |English|94775841725|Test@135|Test@135|test   |test|0000    |MBSL - Savings Bank|Galle     |1596325874|TESTLKR0000132|PRDECT|Welcome! TEST COMPANY|osura@vikas.lk|
         
-
+@RegProd
 Scenario Outline: Test case 07
 Given user direct to the site
 When user click on Login or Register button
@@ -83,7 +83,7 @@ Examples:
     |IR_ID   |Title|FName|Lname  |YEAR|Month|Date|Lang   |Mob_no     |PWD     |Re_PWD  |Address|City|PostCode|Autologin            |Email|
     |GL621185|Mr   |test |vikasRC|1988|05  |12  |English|94775877588|Test@135|Test@135|test   |test|0000    |Welcome! TEST VIKASRC|osura@vikas.lk|
  
-
+@RegProd
 Scenario Outline: Test case 14
 Given user direct to the site
 When user click on Login or Register button
@@ -97,7 +97,7 @@ Examples:
 	|GL621185 |
  
   
-
+@RegProd
 Scenario Outline: Test case 08
 Given user direct to the site
 When user click on Login or Register button
@@ -183,7 +183,7 @@ Then Validate the Auto Login "<Autologin>"
   Examples:
     |IR_ID   |PWD|  DE_OPTION|QA_Pin|Autologin|
  
-
+@RegProd
 Scenario Outline: Test case 14
 Given user direct to the site
 When user click on Login or Register button
@@ -196,7 +196,7 @@ Examples:
     |CUS_ID   | 
 	|GL617795 |
 	
-
+@RegProd
 Scenario Outline: Test case 13
 Given user direct to the site
 And user click on products tab
@@ -228,7 +228,7 @@ Examples:
     |GL617795|Individual|Mr   |test |vikass|1988|06  |12  |English|94763557189|Test@135|Test@135|test   |test|0000    |MBSL - Savings Bank|Galle     |1596325874|TESTLKR0000135|PRDECT|Welcome! TEST VIKASS|osura@vikas.lk|Global Lifestyle Lanka Head Office|TESTLKR0000136|PRDECT|
  
  
-
+@RegProd
 Scenario Outline: Test case 16 
 Given user direct to the site 
 When user click on Login or Register button
